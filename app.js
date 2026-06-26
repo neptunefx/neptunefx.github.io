@@ -540,7 +540,7 @@ function initPlanetTracker() {
         const dot = document.createElement("div");
         dot.className = "planet-dot";
         dot.dataset.index = i;
-        dot.innerHTML = `<span>${p.emoji}</span><span class="tooltip">${p.name}</span>`;
+        dot.innerHTML = `<span class="emoji">${p.emoji}</span><span class="tooltip">${p.name}</span>`;
         dot.addEventListener("click", () => {
             const docHeight = document.documentElement.scrollHeight - window.innerHeight;
             const targetPct = (i + 0.5) / planets.length;
