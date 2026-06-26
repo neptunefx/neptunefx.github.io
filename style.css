@@ -9,6 +9,9 @@
     --accent: #5b8cff;
     --accent-2: #9b6bff;
     --radius: 14px;
+    --g1: #5b8cff;
+    --g2: #9b6bff;
+    --g3: #00d4ff;
 }
 
 * { box-sizing: border-box; }
@@ -27,9 +30,9 @@ body {
     position: fixed;
     inset: 0;
     background:
-        radial-gradient(circle at 15% 15%, rgba(91, 140, 255, 0.18), transparent 40%),
-        radial-gradient(circle at 85% 25%, rgba(155, 107, 255, 0.16), transparent 45%),
-        radial-gradient(circle at 50% 90%, rgba(0, 212, 255, 0.10), transparent 50%),
+        radial-gradient(circle at 15% 15%, color-mix(in srgb, var(--g1) 35%, transparent), transparent 40%),
+        radial-gradient(circle at 85% 25%, color-mix(in srgb, var(--g2) 32%, transparent), transparent 45%),
+        radial-gradient(circle at 50% 90%, color-mix(in srgb, var(--g3) 22%, transparent), transparent 50%),
         var(--bg);
     z-index: -2;
 }
@@ -661,6 +664,110 @@ footer {
     border-color: var(--accent);
     color: var(--text);
     transform: translateY(-2px);
+}
+
+/* SETTINGS / THEMES */
+.settings-section {
+    max-width: 480px;
+    margin: 30px auto 10px;
+    text-align: center;
+}
+
+.settings-toggle {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 10px 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: border-color 0.15s ease;
+}
+
+.settings-toggle:hover {
+    border-color: var(--accent);
+}
+
+.settings-panel {
+    margin-top: 14px;
+    background: var(--panel-solid);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 18px;
+    text-align: left;
+}
+
+.settings-title {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-dim);
+    margin-bottom: 10px;
+}
+
+.theme-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(48px, 1fr));
+    gap: 8px;
+}
+
+.theme-swatch {
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 10px;
+    border: 1px solid var(--border-strong);
+    cursor: pointer;
+    transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.theme-swatch:hover {
+    transform: scale(1.08);
+}
+
+.theme-swatch.active {
+    border-color: var(--text);
+    box-shadow: 0 0 0 2px var(--accent);
+}
+
+.custom-theme {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.color-pickers {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.color-pickers input[type="color"] {
+    width: 36px;
+    height: 36px;
+    border: 1px solid var(--border-strong);
+    border-radius: 8px;
+    background: none;
+    cursor: pointer;
+}
+
+.accent-label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11px;
+    color: var(--text-dim);
+}
+
+.apply-btn {
+    margin-top: 10px;
+    padding: 9px 14px;
+    background: linear-gradient(90deg, var(--accent), var(--accent-2));
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 13px;
 }
 
 /* RESPONSIVE */

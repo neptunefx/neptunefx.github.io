@@ -374,6 +374,83 @@ initCursorGlow();
 initParallaxPlanets();
 initScrollTop();
 initSearchShortcut();
+initThemes();
+
+/* ---------- THEME SYSTEM ---------- */
+function initThemes() {
+    const toggle = document.getElementById("settingsToggle");
+    const panel = document.getElementById("settingsPanel");
+    const grid = document.getElementById("themeGrid");
+    if (!toggle || !panel || !grid) return;
+
+    const themes = [
+        { name: "Neptune",   accent: "#5b8cff", accent2: "#9b6bff", bg: "#060814", g1: "#5b8cff", g2: "#9b6bff", g3: "#00d4ff" },
+        { name: "Mars",      accent: "#ff5b5b", accent2: "#ff9b5b", bg: "#1a0707", g1: "#ff5b5b", g2: "#ff9b5b", g3: "#ff2e2e" },
+        { name: "Saturn",    accent: "#e8c27a", accent2: "#caa15a", bg: "#1a1407", g1: "#e8c27a", g2: "#caa15a", g3: "#fff0c2" },
+        { name: "Venus",     accent: "#4fbf7a", accent2: "#2f8f5a", bg: "#06140c", g1: "#4fbf7a", g2: "#2f8f5a", g3: "#9bffcf" },
+        { name: "Sakura",    accent: "#ff8fc6", accent2: "#ff5ba0", bg: "#1a0712", g1: "#ff8fc6", g2: "#ff5ba0", g3: "#ffd1e8" },
+        { name: "Cyberpunk", accent: "#ff2ec4", accent2: "#2ee9ff", bg: "#08060f", g1: "#ff2ec4", g2: "#2ee9ff", g3: "#ffe62e" },
+        { name: "Mono",      accent: "#cfcfcf", accent2: "#8a8a8a", bg: "#0a0a0a", g1: "#cfcfcf", g2: "#8a8a8a", g3: "#ffffff" },
+        { name: "Sunset",    accent: "#ff7a4f", accent2: "#ffb84f", bg: "#1a0b06", g1: "#ff7a4f", g2: "#ffb84f", g3: "#ff4f9b" },
+        { name: "Vaporwave", accent: "#ff6ad5", accent2: "#7a5cff", bg: "#0c0620", g1: "#ff6ad5", g2: "#7a5cff", g3: "#5cf0ff" },
+        { name: "Midnight",  accent: "#7a5cff", accent2: "#3a2a8f", bg: "#05040d", g1: "#7a5cff", g2: "#3a2a8f", g3: "#b29bff" },
+        { name: "Emerald",   accent: "#2ee9a0", accent2: "#1a9f6e", bg: "#04140e", g1: "#2ee9a0", g2: "#1a9f6e", g3: "#9bffe0" },
+        { name: "BloodMoon", accent: "#d63b3b", accent2: "#7a1f1f", bg: "#100404", g1: "#d63b3b", g2: "#7a1f1f", g3: "#ff8a8a" },
+        { name: "Arctic",    accent: "#7ad7ff", accent2: "#bfe9ff", bg: "#04101a", g1: "#7ad7ff", g2: "#bfe9ff", g3: "#ffffff" },
+        { name: "Lava",      accent: "#ff4500", accent2: "#ffae00", bg: "#140402", g1: "#ff4500", g2: "#ffae00", g3: "#ff0000" },
+        { name: "GalaxyTeal",accent: "#2ed6c7", accent2: "#5b8cff", bg: "#04141a", g1: "#2ed6c7", g2: "#5b8cff", g3: "#9bffe9" }
+    ];
+
+    function applyTheme(t) {
+        const root = document.documentElement.style;
+        root.setProperty("--accent", t.accent);
+        root.setProperty("--accent-2", t.accent2);
+        root.setProperty("--bg", t.bg);
+        root.setProperty("--g1", t.g1);
+        root.setProperty("--g2", t.g2);
+        root.setProperty("--g3", t.g3);
+        localStorage.setItem("neptuneTheme", JSON.stringify(t));
+
+        grid.querySelectorAll(".theme-swatch").forEach(s => s.classList.remove("active"));
+        const match = grid.querySelector(`[data-name="${t.name}"]`);
+        if (match) match.classList.add("active");
+    }
+
+    themes.forEach(t => {
+        const sw = document.createElement("div");
+        sw.className = "theme-swatch";
+        sw.title = t.name;
+        sw.dataset.name = t.name;
+        sw.style.background = `linear-gradient(135deg, ${t.g1}, ${t.g2}, ${t.g3})`;
+        sw.addEventListener("click", () => applyTheme(t));
+        grid.appendChild(sw);
+    });
+
+    toggle.addEventListener("click", () => {
+        panel.style.display = panel.style.display === "none" ? "block" : "none";
+    });
+
+    document.getElementById("applyCustom").addEventListener("click", () => {
+        const c1 = document.getElementById("c1").value;
+        const c2 = document.getElementById("c2").value;
+        const c3 = document.getElementById("c3").value;
+        const c4 = document.getElementById("c4").value;
+        const accent = document.getElementById("accentPick").value;
+        const accent2 = document.getElementById("accent2Pick").value;
+
+        applyTheme({
+            name: "Custom",
+            accent, accent2,
+            bg: c4,
+            g1: c1, g2: c2, g3: c3
+        });
+    });
+
+    const saved = localStorage.getItem("neptuneTheme");
+    if (saved) {
+        try { applyTheme(JSON.parse(saved)); } catch (e) {}
+    }
+}
 
 /* ---------- INTRO LOADER ---------- */
 function initIntroLoader() {

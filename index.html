@@ -89,6 +89,30 @@
         <div class="rip-line">rip 🪐</div>
     </footer>
 
+    <section class="settings-section">
+        <button id="settingsToggle" class="settings-toggle">⚙ Themes</button>
+
+        <div id="settingsPanel" class="settings-panel" style="display:none;">
+            <div class="settings-title">Choose a theme</div>
+            <div id="themeGrid" class="theme-grid"></div>
+
+            <div class="settings-title" style="margin-top:18px;">Custom gradient</div>
+            <div class="custom-theme">
+                <div class="color-pickers">
+                    <input type="color" id="c1" value="#5b8cff">
+                    <input type="color" id="c2" value="#9b6bff">
+                    <input type="color" id="c3" value="#00d4ff">
+                    <input type="color" id="c4" value="#05070f">
+                </div>
+                <div class="color-pickers" style="margin-top:8px;">
+                    <label class="accent-label">Accent <input type="color" id="accentPick" value="#5b8cff"></label>
+                    <label class="accent-label">Accent 2 <input type="color" id="accent2Pick" value="#9b6bff"></label>
+                </div>
+                <button id="applyCustom" class="apply-btn">Apply Custom Theme</button>
+            </div>
+        </div>
+    </section>
+
 </div>
 
 <script src="app.js"></script>
