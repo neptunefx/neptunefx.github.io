@@ -48,9 +48,16 @@ for folder, _, files in os.walk(SFX):
         path = os.path.join(folder, file)
         rel_path = os.path.relpath(path, SFX).replace("\\", "/")
 
+        # first subfolder under anime_sfx becomes its own category, e.g. "SFX - Combat"
+        if "/" in rel_path:
+            subfolder = rel_path.split("/")[0]
+            category = f"SFX - {subfolder}"
+        else:
+            category = "Anime SFX"
+
         resources.append({
             "name": os.path.splitext(file)[0],
-            "category": "Anime SFX",
+            "category": category,
             "file": f"{BASE_URL}/anime_sfx/{rel_path}"
         })
 
