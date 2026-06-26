@@ -371,10 +371,10 @@ function render(items) {
         const recentBadge = isRecent(item) ? `<span class="recent-badge">NEW</span>` : "";
 
         div.innerHTML = `
-            <div class="card-name">${escapeHtml(item.name)}${recentBadge}</div>
+            <div class="card-name">${escapeHtml(item.name)}</div>
             <div class="card-meta">${escapeHtml(item.category)}${sizeLabel ? " • " + sizeLabel : ""}</div>
             ${isAudio ? `<button class="preview-btn" data-src="${item.file}">▶ Preview</button>` : ""}
-            <a class="download-btn" href="${item.file}" data-filename="${escapeHtml(fileName)}">⬇ Download</a>
+            <a class="download-btn" href="${item.file}" data-filename="${escapeHtml(fileName)}">⬇ Download${recentBadge}</a>
             <button class="copy-link-btn" data-link="${item.file}">🔗 Copy link</button>
             <div class="progress-track" style="display:none;">
                 <div class="progress-fill"></div>
