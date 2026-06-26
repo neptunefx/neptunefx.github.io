@@ -96,10 +96,12 @@ function render(items) {
         div.style.animationDelay = `${Math.min(idx * 0.03, 0.6)}s`;
 
         const fileName = item.file.split("/").pop();
+        const isAudio = /\.(mp3|wav|ogg|m4a|flac)$/i.test(fileName);
 
         div.innerHTML = `
             <div class="card-name">${escapeHtml(item.name)}</div>
             <div class="card-meta">${escapeHtml(item.category)}</div>
+            ${isAudio ? `<button class="preview-btn" data-src="${item.file}">▶ Preview</button>` : ""}
             <a class="download-btn" href="${item.file}" data-filename="${escapeHtml(fileName)}">⬇ Download</a>
             <div class="progress-track" style="display:none;">
                 <div class="progress-fill"></div>
@@ -128,6 +130,44 @@ function escapeHtml(str) {
     div.textContent = str;
     return div.innerHTML;
 }
+
+/* ---------- AUDIO PREVIEW ---------- */
+let previewAudio = null;
+let previewBtnActive = null;
+
+document.addEventListener("click", (e) => {
+    const btn = e.target.closest(".preview-btn");
+    if (!btn) return;
+
+    const src = btn.getAttribute("data-src");
+
+    if (previewBtnActive === btn && previewAudio && !previewAudio.paused) {
+        previewAudio.pause();
+        btn.textContent = "▶ Preview";
+        previewBtnActive = null;
+        return;
+    }
+
+    if (previewAudio) {
+        previewAudio.pause();
+    }
+    if (previewBtnActive) {
+        previewBtnActive.textContent = "▶ Preview";
+    }
+
+    previewAudio = new Audio(src);
+    previewBtnActive = btn;
+    btn.textContent = "⏸ Playing...";
+
+    previewAudio.play().catch(() => {
+        btn.textContent = "▶ Preview";
+    });
+
+    previewAudio.addEventListener("ended", () => {
+        btn.textContent = "▶ Preview";
+        previewBtnActive = null;
+    });
+});
 
 /* ---------- FORCE CORRECT FILENAME ON DOWNLOAD + PROGRESS BAR (cross-origin safe) ---------- */
 document.addEventListener("click", async (e) => {

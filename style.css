@@ -300,6 +300,22 @@ input#search::placeholder {
     transform: translateY(-1px);
 }
 
+.preview-btn {
+    padding: 8px 10px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid var(--border-strong);
+    color: var(--text);
+    border-radius: 8px;
+    font-size: 12.5px;
+    cursor: pointer;
+    transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.preview-btn:hover {
+    background: rgba(91, 140, 255, 0.15);
+    border-color: var(--accent);
+}
+
 .card a.download-btn.disabled {
     pointer-events: none;
     filter: brightness(0.9);
