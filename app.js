@@ -540,7 +540,12 @@ function initPlanetTracker() {
         const dot = document.createElement("div");
         dot.className = "planet-dot";
         dot.dataset.index = i;
-        dot.innerHTML = `${p.emoji}<span class="tooltip">${p.name}</span>`;
+        dot.innerHTML = `<span>${p.emoji}</span><span class="tooltip">${p.name}</span>`;
+        dot.addEventListener("click", () => {
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const targetPct = (i + 0.5) / planets.length;
+            window.scrollTo({ top: docHeight * targetPct, behavior: "smooth" });
+        });
         rail.appendChild(dot);
     });
 
