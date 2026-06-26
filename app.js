@@ -9,14 +9,19 @@ async function loadData() {
 
         allItems = data;
         buildCategories(data);
-        applyFilters();
+        setupLanding(data);
 
         const liveCount = document.getElementById("liveCount");
         if (liveCount) liveCount.textContent = `• ${data.length} files`;
 
         document.getElementById("search").addEventListener("input", (e) => {
             searchTerm = e.target.value.toLowerCase();
-            applyFilters();
+            if (searchTerm) {
+                showResults();
+                applyFilters();
+            } else {
+                showLanding();
+            }
         });
 
     } catch (err) {
@@ -24,6 +29,41 @@ async function loadData() {
         document.getElementById("grid").innerHTML =
             "<p style='color:#ff6b6b'>Failed to load data.json</p>";
     }
+}
+
+function setupLanding(data) {
+    const allCount = data.length;
+    const toolsCount = data.filter(i => !i.category.startsWith("SFX - ") && i.category !== "Anime SFX").length;
+    const sfxCount = data.filter(i => i.category.startsWith("SFX - ") || i.category === "Anime SFX").length;
+
+    document.getElementById("landingAllCount").textContent = `${allCount} files`;
+    document.getElementById("landingToolsCount").textContent = `${toolsCount} files`;
+    document.getElementById("landingSfxCount").textContent = `${sfxCount} files`;
+
+    document.querySelectorAll(".landing-box").forEach(box => {
+        box.addEventListener("click", () => {
+            activeCategory = box.dataset.cat;
+            showResults();
+            applyFilters();
+        });
+    });
+
+    document.getElementById("backToHome").addEventListener("click", () => {
+        document.getElementById("search").value = "";
+        searchTerm = "";
+        activeCategory = "all";
+        showLanding();
+    });
+}
+
+function showResults() {
+    document.getElementById("landing").style.display = "none";
+    document.getElementById("resultsArea").style.display = "block";
+}
+
+function showLanding() {
+    document.getElementById("landing").style.display = "block";
+    document.getElementById("resultsArea").style.display = "none";
 }
 
 function buildCategories(data) {
