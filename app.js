@@ -1,6 +1,9 @@
 let allItems = [];
 let activeCategory = "all";
 let searchTerm = "";
+let sortMode = "name";
+let typeFilter = "all";
+let viewMode = "grid";
 
 async function loadData() {
     try {
@@ -10,9 +13,20 @@ async function loadData() {
         allItems = data;
         buildCategories(data);
         setupLanding(data);
+        setupTypeFilter(data);
+        setupHeaderControls();
+        setupRandomButton();
+        setupRequestModal();
+        setupChangelog(data);
 
         const liveCount = document.getElementById("liveCount");
         if (liveCount) liveCount.textContent = `• ${data.length} files`;
+
+        const totalBytes = data.reduce((sum, i) => sum + (i.size || 0), 0);
+        const totalSizeEl = document.getElementById("totalSize");
+        if (totalSizeEl && totalBytes) {
+            totalSizeEl.textContent = `• ${(totalBytes / (1024 ** 3)).toFixed(1)}GB`;
+        }
 
         document.getElementById("search").addEventListener("input", (e) => {
             searchTerm = e.target.value.toLowerCase();
@@ -29,6 +43,126 @@ async function loadData() {
         document.getElementById("grid").innerHTML =
             "<p style='color:#ff6b6b'>Failed to load data.json</p>";
     }
+}
+
+function setupTypeFilter(data) {
+    const select = document.getElementById("typeSelect");
+    if (!select) return;
+
+    const exts = new Set();
+    data.forEach(i => {
+        const ext = i.file.split(".").pop().toLowerCase();
+        if (ext.length <= 5) exts.add(ext);
+    });
+
+    [...exts].sort().forEach(ext => {
+        const opt = document.createElement("option");
+        opt.value = ext;
+        opt.textContent = `.${ext}`;
+        select.appendChild(opt);
+    });
+
+    select.addEventListener("change", () => {
+        typeFilter = select.value;
+        applyFilters();
+    });
+}
+
+function setupHeaderControls() {
+    const sortSelect = document.getElementById("sortSelect");
+    const viewToggle = document.getElementById("viewToggle");
+    const grid = document.getElementById("grid");
+
+    if (sortSelect) {
+        sortSelect.addEventListener("change", () => {
+            sortMode = sortSelect.value;
+            applyFilters();
+        });
+    }
+
+    if (viewToggle) {
+        viewToggle.addEventListener("click", () => {
+            viewMode = viewMode === "grid" ? "list" : "grid";
+            grid.classList.toggle("list-view", viewMode === "list");
+            viewToggle.textContent = viewMode === "list" ? "▦" : "☰";
+        });
+    }
+}
+
+function setupRandomButton() {
+    const btn = document.getElementById("randomBtn");
+    if (!btn) return;
+
+    btn.addEventListener("click", () => {
+        if (!allItems.length) return;
+        const pick = allItems[Math.floor(Math.random() * allItems.length)];
+        activeCategory = pick.category;
+        searchTerm = pick.name.toLowerCase();
+        document.getElementById("search").value = pick.name;
+        showResults();
+        applyFilters();
+    });
+}
+
+function setupRequestModal() {
+    const btn = document.getElementById("requestBtn");
+    const modal = document.getElementById("requestModal");
+    const cancel = document.getElementById("requestCancel");
+    const send = document.getElementById("requestSend");
+    const text = document.getElementById("requestText");
+    if (!btn || !modal) return;
+
+    btn.addEventListener("click", () => { modal.style.display = "flex"; });
+    cancel.addEventListener("click", () => { modal.style.display = "none"; });
+
+    send.addEventListener("click", () => {
+        const body = encodeURIComponent(text.value || "");
+        window.location.href = `mailto:?subject=Neptune%20Tool%20Request&body=${body}`;
+        modal.style.display = "none";
+        text.value = "";
+    });
+
+    const aboutBtn = document.getElementById("aboutLink");
+    const aboutModal = document.getElementById("aboutModal");
+    const aboutClose = document.getElementById("aboutClose");
+    if (aboutBtn && aboutModal) {
+        aboutBtn.addEventListener("click", (e) => {
+            e.preventDefault();
+            aboutModal.style.display = "flex";
+        });
+        aboutClose.addEventListener("click", () => { aboutModal.style.display = "none"; });
+    }
+}
+
+function setupChangelog(data) {
+    const link = document.getElementById("changelogLink");
+    const modal = document.getElementById("changelogModal");
+    const close = document.getElementById("changelogClose");
+    const list = document.getElementById("changelogList");
+    if (!link || !modal) return;
+
+    link.addEventListener("click", (e) => {
+        e.preventDefault();
+        const sorted = [...data]
+            .filter(i => i.added)
+            .sort((a, b) => b.added - a.added)
+            .slice(0, 25);
+
+        list.innerHTML = sorted.map(i => {
+            const date = new Date(i.added * 1000).toLocaleDateString();
+            return `<div class="changelog-item"><span>${escapeHtml(i.name)}</span><span>${date}</span></div>`;
+        }).join("") || "<div>No date info available.</div>";
+
+        modal.style.display = "flex";
+    });
+
+    close.addEventListener("click", () => { modal.style.display = "none"; });
+}
+
+function isRecent(item) {
+    if (!item.added) return false;
+    const sevenDays = 7 * 24 * 60 * 60;
+    return (Date.now() / 1000 - item.added) < sevenDays;
 }
 
 function setupLanding(data) {
@@ -155,6 +289,23 @@ function applyFilters() {
         );
     }
 
+    if (typeFilter !== "all") {
+        filtered = filtered.filter(i => i.file.split(".").pop().toLowerCase() === typeFilter);
+    }
+
+    filtered = [...filtered];
+    if (sortMode === "name") {
+        filtered.sort((a, b) => a.name.localeCompare(b.name));
+    } else if (sortMode === "category") {
+        filtered.sort((a, b) => a.category.localeCompare(b.category));
+    } else if (sortMode === "size-desc") {
+        filtered.sort((a, b) => (b.size || 0) - (a.size || 0));
+    } else if (sortMode === "size-asc") {
+        filtered.sort((a, b) => (a.size || 0) - (b.size || 0));
+    } else if (sortMode === "newest") {
+        filtered.sort((a, b) => (b.added || 0) - (a.added || 0));
+    }
+
     const titleMap = { all: "All Tools", __all_sfx__: "SFX" };
     document.getElementById("sectionTitle").textContent =
         titleMap[activeCategory] || activeCategory;
@@ -163,6 +314,13 @@ function applyFilters() {
         `${filtered.length} item${filtered.length === 1 ? "" : "s"}`;
 
     render(filtered);
+}
+
+function formatSize(bytes) {
+    if (!bytes) return "";
+    if (bytes < 1024 * 1024) return `${(bytes / 1024).toFixed(0)} KB`;
+    if (bytes < 1024 * 1024 * 1024) return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
+    return `${(bytes / (1024 ** 3)).toFixed(2)} GB`;
 }
 
 function render(items) {
@@ -179,16 +337,20 @@ function render(items) {
     items.forEach((item, idx) => {
         const div = document.createElement("div");
         div.className = "card";
+        div.tabIndex = 0;
         div.style.animationDelay = `${Math.min(idx * 0.03, 0.6)}s`;
 
         const fileName = item.file.split("/").pop();
         const isAudio = /\.(mp3|wav|ogg|m4a|flac)$/i.test(fileName);
+        const sizeLabel = formatSize(item.size);
+        const recentBadge = isRecent(item) ? `<span class="recent-badge">NEW</span>` : "";
 
         div.innerHTML = `
-            <div class="card-name">${escapeHtml(item.name)}</div>
-            <div class="card-meta">${escapeHtml(item.category)}</div>
+            <div class="card-name">${escapeHtml(item.name)}${recentBadge}</div>
+            <div class="card-meta">${escapeHtml(item.category)}${sizeLabel ? " • " + sizeLabel : ""}</div>
             ${isAudio ? `<button class="preview-btn" data-src="${item.file}">▶ Preview</button>` : ""}
             <a class="download-btn" href="${item.file}" data-filename="${escapeHtml(fileName)}">⬇ Download</a>
+            <button class="copy-link-btn" data-link="${item.file}">🔗 Copy link</button>
             <div class="progress-track" style="display:none;">
                 <div class="progress-fill"></div>
             </div>
@@ -198,6 +360,40 @@ function render(items) {
         grid.appendChild(div);
     });
 }
+
+/* ---------- COPY LINK ---------- */
+document.addEventListener("click", (e) => {
+    const btn = e.target.closest(".copy-link-btn");
+    if (!btn) return;
+    navigator.clipboard.writeText(btn.dataset.link).then(() => {
+        const original = btn.textContent;
+        btn.textContent = "Copied ✓";
+        setTimeout(() => { btn.textContent = original; }, 1500);
+    });
+});
+
+/* ---------- KEYBOARD NAV ---------- */
+document.addEventListener("keydown", (e) => {
+    if (document.activeElement.id === "search") return;
+    const cards = [...document.querySelectorAll(".card")];
+    if (!cards.length) return;
+
+    const current = document.activeElement.closest(".card");
+    let index = cards.indexOf(current);
+
+    if (e.key === "ArrowRight" || e.key === "ArrowDown") {
+        e.preventDefault();
+        index = Math.min(cards.length - 1, index + 1);
+        cards[index].focus();
+    } else if (e.key === "ArrowLeft" || e.key === "ArrowUp") {
+        e.preventDefault();
+        index = Math.max(0, index - 1);
+        cards[index].focus();
+    } else if (e.key === "Enter" && current) {
+        const dl = current.querySelector(".download-btn");
+        if (dl) dl.click();
+    }
+});
 
 function addTilt(el) {
     el.addEventListener("mousemove", (e) => {

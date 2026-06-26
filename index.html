@@ -33,12 +33,17 @@
             <span class="brand-icon">🔵</span>
             <div>
                 <div class="brand-title">NEPTUNE</div>
-                <div class="brand-sub">Editing Tools Archive <span id="liveCount" class="live-count"></span></div>
+                <div class="brand-sub">Editing Tools Archive <span id="liveCount" class="live-count"></span> <span id="totalSize" class="live-count"></span></div>
             </div>
         </div>
 
         <div class="search-wrap">
-            <input id="search" placeholder="Search tools, presets, plugins...">
+            <input id="search" placeholder="Search tools, presets, plugins... ( / )">
+        </div>
+
+        <div class="topbar-actions">
+            <button id="randomBtn" class="icon-btn" title="Random tool">🎲</button>
+            <button id="requestBtn" class="icon-btn" title="Request a tool">📝</button>
         </div>
     </header>
 
@@ -81,6 +86,22 @@
                     <button id="backToHome" class="back-btn">← Back</button>
                     <h2 id="sectionTitle">All Tools</h2>
                     <span id="resultCount" class="result-count"></span>
+
+                    <div class="header-controls">
+                        <select id="sortSelect" class="select-input">
+                            <option value="name">Sort: Name</option>
+                            <option value="category">Sort: Category</option>
+                            <option value="size-desc">Sort: Largest first</option>
+                            <option value="size-asc">Sort: Smallest first</option>
+                            <option value="newest">Sort: Newest</option>
+                        </select>
+
+                        <select id="typeSelect" class="select-input">
+                            <option value="all">All types</option>
+                        </select>
+
+                        <button id="viewToggle" class="icon-btn" title="Toggle view">☰</button>
+                    </div>
                 </div>
 
                 <div id="grid" class="grid"></div>
@@ -112,7 +133,34 @@
         <div>neptune archive — built for creators</div>
         <div class="made-by">made by ko</div>
         <div class="rip-line">rip 🪐</div>
+        <div class="footer-links">
+            <a href="#" id="changelogLink">changelog</a> · <a href="#" id="aboutLink">about</a>
+        </div>
+        <div class="visitor-counter">
+            <img src="https://api.visitorbadge.io/api/visitors?path=neptunefx.github.io&label=visits&countColor=%235b8cff" alt="visitors" />
+        </div>
     </footer>
+
+    <div id="requestModal" class="modal-overlay" style="display:none;">
+        <div class="modal-box">
+            <div class="modal-title">Request a Tool</div>
+            <textarea id="requestText" placeholder="What tool/plugin/preset should be added?"></textarea>
+            <div class="modal-actions">
+                <button id="requestCancel" class="back-btn">Cancel</button>
+                <button id="requestSend" class="apply-btn">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="changelogModal" class="modal-overlay" style="display:none;">
+        <div class="modal-box">
+            <div class="modal-title">Recently Added</div>
+            <div id="changelogList" class="changelog-list"></div>
+            <div class="modal-actions">
+                <button id="changelogClose" class="back-btn">Close</button>
+            </div>
+        </div>
+    </div>
 
     <section class="settings-section">
         <button id="settingsToggle" class="settings-toggle">⚙ Themes</button>
@@ -137,6 +185,16 @@
             </div>
         </div>
     </section>
+
+    <div id="aboutModal" class="modal-overlay" style="display:none;">
+        <div class="modal-box">
+            <div class="modal-title">About Neptune</div>
+            <p class="about-text">Neptune is a free archive of editing tools, presets, plugins, and anime SFX — built for creators, by Ko. Everything here is hosted for free and kept up to date when new stuff gets added.</p>
+            <div class="modal-actions">
+                <button id="aboutClose" class="back-btn">Close</button>
+            </div>
+        </div>
+    </div>
 
 </div>
 
