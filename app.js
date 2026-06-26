@@ -640,6 +640,20 @@ initParallaxPlanets();
 initScrollTop();
 initSearchShortcut();
 initThemes();
+initLinksToggle();
+
+function initLinksToggle() {
+    const btn = document.getElementById("linksToggle");
+    const grid = document.getElementById("linksGrid");
+    const chevron = document.getElementById("linksChevron");
+    if (!btn || !grid) return;
+
+    btn.addEventListener("click", () => {
+        const isOpen = grid.style.display !== "none";
+        grid.style.display = isOpen ? "none" : "flex";
+        chevron.textContent = isOpen ? "▸" : "▾";
+    });
+}
 
 /* ---------- THEME SYSTEM ---------- */
 function initThemes() {
