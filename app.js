@@ -292,7 +292,6 @@ initCursorGlow();
 initParallaxPlanets();
 initScrollTop();
 initSearchShortcut();
-initLogoEasterEgg();
 
 /* ---------- INTRO LOADER ---------- */
 function initIntroLoader() {
@@ -358,33 +357,12 @@ function initSearchShortcut() {
     });
 }
 
-/* ---------- LOGO EASTER EGG ---------- */
-function initLogoEasterEgg() {
-    const logo = document.getElementById("brandLogo");
-    if (!logo) return;
 
-    let clicks = 0;
-    logo.addEventListener("click", () => {
-        clicks++;
-        logo.style.transition = "transform 0.5s ease";
-        logo.style.transform = `rotate(${clicks * 360}deg)`;
-
-        if (clicks === 5) {
-            document.body.style.transition = "filter 0.4s ease";
-            document.body.style.filter = "hue-rotate(180deg)";
-            setTimeout(() => {
-                document.body.style.filter = "";
-                clicks = 0;
-            }, 1500);
-        }
-    });
-}
 
 /* ---------- PLANET SCROLL TRACKER ---------- */
 function initPlanetTracker() {
-    const emojiEl = document.getElementById("planetEmoji");
-    const nameEl = document.getElementById("planetName");
-    if (!emojiEl || !nameEl) return;
+    const rail = document.getElementById("planetRail");
+    if (!rail) return;
 
     const planets = [
         { name: "Sun", emoji: "☀️" },
@@ -399,6 +377,15 @@ function initPlanetTracker() {
         { name: "Pluto", emoji: "⚪" }
     ];
 
+    planets.forEach((p, i) => {
+        const dot = document.createElement("div");
+        dot.className = "planet-dot";
+        dot.dataset.index = i;
+        dot.innerHTML = `${p.emoji}<span class="tooltip">${p.name}</span>`;
+        rail.appendChild(dot);
+    });
+
+    const dots = rail.querySelectorAll(".planet-dot");
     let lastIndex = -1;
 
     function update() {
@@ -413,11 +400,7 @@ function initPlanetTracker() {
 
         if (index !== lastIndex) {
             lastIndex = index;
-            const planet = planets[index];
-            emojiEl.textContent = planet.emoji;
-            nameEl.textContent = planet.name;
-            emojiEl.style.transform = "scale(1.3)";
-            setTimeout(() => { emojiEl.style.transform = "scale(1)"; }, 200);
+            dots.forEach((d, i) => d.classList.toggle("active", i === index));
         }
     }
 

@@ -364,40 +364,92 @@ footer {
     right: 22px;
     top: 50%;
     transform: translateY(-50%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 4px;
-    padding: 12px 10px;
+    padding: 14px 8px;
     background: var(--panel);
     border: 1px solid var(--border);
-    border-radius: 12px;
+    border-radius: 999px;
     backdrop-filter: blur(10px);
     z-index: 30;
-    transition: opacity 0.3s ease;
     pointer-events: none;
 }
 
-.planet-tracker #planetEmoji {
-    font-size: 26px;
-    transition: transform 0.3s ease;
+.planet-rail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    position: relative;
 }
 
-.planet-tracker #planetName {
-    font-size: 10px;
-    color: var(--text-dim);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    writing-mode: vertical-rl;
+.planet-rail::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    bottom: 6px;
+    left: 50%;
+    width: 2px;
+    background: var(--border-strong);
+    transform: translateX(-50%);
+    z-index: 0;
+}
+
+.planet-dot {
+    position: relative;
+    z-index: 1;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    border-radius: 50%;
+    background: var(--panel-solid);
+    border: 1px solid var(--border-strong);
+    opacity: 0.45;
+    transform: scale(0.85);
+    transition: opacity 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.planet-dot.active {
+    opacity: 1;
+    transform: scale(1.25);
+    box-shadow: 0 0 14px rgba(91, 140, 255, 0.6);
+    border-color: var(--accent);
+}
+
+.planet-dot .tooltip {
+    position: absolute;
+    right: 130%;
+    top: 50%;
+    transform: translateY(-50%);
+    background: var(--panel-solid);
+    border: 1px solid var(--border-strong);
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 11px;
+    color: var(--text);
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+}
+
+.planet-dot.active .tooltip {
+    opacity: 1;
 }
 
 @media (max-width: 800px) {
     .planet-tracker {
-        right: 10px;
-        padding: 8px 6px;
+        right: 8px;
+        padding: 10px 5px;
     }
-    .planet-tracker #planetEmoji {
-        font-size: 20px;
+    .planet-dot {
+        width: 16px;
+        height: 16px;
+        font-size: 9px;
+    }
+    .planet-dot .tooltip {
+        display: none;
     }
 }
 /* CUSTOM SCROLLBAR */
@@ -468,10 +520,10 @@ footer {
     position: fixed;
     top: 0;
     left: 0;
-    width: 280px;
-    height: 280px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
-    background: radial-gradient(circle, rgba(91, 140, 255, 0.10), transparent 70%);
+    background: radial-gradient(circle, rgba(91, 140, 255, 0.05), transparent 70%);
     pointer-events: none;
     transform: translate(-50%, -50%);
     z-index: 1;
@@ -533,6 +585,44 @@ footer {
 /* LOGO EASTER EGG */
 .brand {
     cursor: pointer;
+}
+
+/* OTHER USEFUL LINKS */
+.links-section {
+    margin-top: 40px;
+    padding-top: 28px;
+    border-top: 1px solid var(--border);
+}
+
+.links-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 14px;
+    color: var(--text);
+}
+
+.links-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.links-grid a {
+    display: block;
+    padding: 12px 14px;
+    background: var(--panel-solid);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    color: var(--text-dim);
+    text-decoration: none;
+    font-size: 13px;
+    transition: border-color 0.18s ease, color 0.18s ease, transform 0.18s ease;
+}
+
+.links-grid a:hover {
+    border-color: var(--accent);
+    color: var(--text);
+    transform: translateY(-2px);
 }
 
 /* RESPONSIVE */
