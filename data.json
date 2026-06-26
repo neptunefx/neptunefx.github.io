@@ -963,5 +963,2485 @@
     "name": "XOscillator Pro 1.0.0 - satvrn",
     "category": "Misc",
     "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/XOscillator Pro 1.0.0 - satvrn.7z"
+  },
+  {
+    "name": "Boomerang",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Boomerang.mp3"
+  },
+  {
+    "name": "Cape Flutter",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Cape Flutter.mp3"
+  },
+  {
+    "name": "Enter Slow Motion",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Enter Slow Motion.mp3"
+  },
+  {
+    "name": "Explosion Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Explosion Two.mp3"
+  },
+  {
+    "name": "Explosion",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Explosion.mp3"
+  },
+  {
+    "name": "Slow Motion Ends",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Slow Motion Ends.mp3"
+  },
+  {
+    "name": "Slow Motion Starts",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Slow Motion Starts.mp3"
+  },
+  {
+    "name": "Wirl Wind",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Wirl Wind.mp3"
+  },
+  {
+    "name": "Bricks Four",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Destruction and Impact/Bricks Four.mp3"
+  },
+  {
+    "name": "Bricks Three",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Destruction and Impact/Bricks Three.mp3"
+  },
+  {
+    "name": "Bricks Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Destruction and Impact/Bricks Two.mp3"
+  },
+  {
+    "name": "Bricks",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Destruction and Impact/Bricks.mp3"
+  },
+  {
+    "name": "Dust & Rocks",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Destruction and Impact/Dust & Rocks.mp3"
+  },
+  {
+    "name": "Glass Four",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Destruction and Impact/Glass Four.mp3"
+  },
+  {
+    "name": "Glass Three",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Destruction and Impact/Glass Three.mp3"
+  },
+  {
+    "name": "Glass Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Destruction and Impact/Glass Two.mp3"
+  },
+  {
+    "name": "Glass",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Destruction and Impact/Glass.mp3"
+  },
+  {
+    "name": "Rocks Falling Three",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Destruction and Impact/Rocks Falling Three.mp3"
+  },
+  {
+    "name": "Rocks Falling Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Destruction and Impact/Rocks Falling Two.mp3"
+  },
+  {
+    "name": "Rocks Falling",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Destruction and Impact/Rocks Falling.mp3"
+  },
+  {
+    "name": "Roof Collapse",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Destruction and Impact/Roof Collapse.mp3"
+  },
+  {
+    "name": "Window Smash",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Destruction and Impact/Window Smash.mp3"
+  },
+  {
+    "name": "\u6253\u64831",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Getting Hit/\u6253\u64831.mp3"
+  },
+  {
+    "name": "\u6253\u64832",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Getting Hit/\u6253\u64832.mp3"
+  },
+  {
+    "name": "\u6253\u64833",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Getting Hit/\u6253\u64833.mp3"
+  },
+  {
+    "name": "\u6253\u64834",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Getting Hit/\u6253\u64834.mp3"
+  },
+  {
+    "name": "\u6253\u64835",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Getting Hit/\u6253\u64835.mp3"
+  },
+  {
+    "name": "\u6253\u64836",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Getting Hit/\u6253\u64836.mp3"
+  },
+  {
+    "name": "\u6253\u64837",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Getting Hit/\u6253\u64837.mp3"
+  },
+  {
+    "name": "\u6253\u64838",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Getting Hit/\u6253\u64838.mp3"
+  },
+  {
+    "name": "Deep Punch",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Hand Combat Anime Action/Deep Punch.mp3"
+  },
+  {
+    "name": "Dull Metal Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Hand Combat Anime Action/Dull Metal Two.mp3"
+  },
+  {
+    "name": "Dull Metal",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Hand Combat Anime Action/Dull Metal.mp3"
+  },
+  {
+    "name": "Fight Scene SFX",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Hand Combat Anime Action/Fight Scene SFX.mp3"
+  },
+  {
+    "name": "Heavy Kick",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Hand Combat Anime Action/Heavy Kick.mp3"
+  },
+  {
+    "name": "Heavy Punch",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Hand Combat Anime Action/Heavy Punch.mp3"
+  },
+  {
+    "name": "Kick Swoosh One",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Hand Combat Anime Action/Kick Swoosh One.mp3"
+  },
+  {
+    "name": "Kick Swoosh Three",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Hand Combat Anime Action/Kick Swoosh Three.mp3"
+  },
+  {
+    "name": "Kick Swoosh Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Hand Combat Anime Action/Kick Swoosh Two.mp3"
+  },
+  {
+    "name": "Knock Out Punch",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Hand Combat Anime Action/Knock Out Punch.mp3"
+  },
+  {
+    "name": "Light Kick Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Hand Combat Anime Action/Light Kick Two.mp3"
+  },
+  {
+    "name": "Light Kick",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Hand Combat Anime Action/Light Kick.mp3"
+  },
+  {
+    "name": "Punch Metal Three",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Hand Combat Anime Action/Punch Metal Three.mp3"
+  },
+  {
+    "name": "Punch Metal Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Hand Combat Anime Action/Punch Metal Two.mp3"
+  },
+  {
+    "name": "Punch Metal",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Hand Combat Anime Action/Punch Metal.mp3"
+  },
+  {
+    "name": "Punch Slow Motion Four",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Hand Combat Anime Action/Punch Slow Motion Four.mp3"
+  },
+  {
+    "name": "Punch Slow Motion One",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Hand Combat Anime Action/Punch Slow Motion One.mp3"
+  },
+  {
+    "name": "Punch Slow Motion Three",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Hand Combat Anime Action/Punch Slow Motion Three.mp3"
+  },
+  {
+    "name": "Punch Slow Motion Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Hand Combat Anime Action/Punch Slow Motion Two.mp3"
+  },
+  {
+    "name": "Punch Swoosh One",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Hand Combat Anime Action/Punch Swoosh One.mp3"
+  },
+  {
+    "name": "Punch Swoosh Three",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Hand Combat Anime Action/Punch Swoosh Three.mp3"
+  },
+  {
+    "name": "Punch Swoosh Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Hand Combat Anime Action/Punch Swoosh Two.mp3"
+  },
+  {
+    "name": "Rubber Crunchy Short",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Hand Combat Anime Action/Rubber Crunchy Short.mp3"
+  },
+  {
+    "name": "Shoulder Throw One",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Hand Combat Anime Action/Shoulder Throw One.mp3"
+  },
+  {
+    "name": "Shoulder Throw Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Hand Combat Anime Action/Shoulder Throw Two.mp3"
+  },
+  {
+    "name": "Three Heavy Punch",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Hand Combat Anime Action/Three Heavy Punch.mp3"
+  },
+  {
+    "name": "Two Heavy Punch",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Hand Combat Anime Action/Two Heavy Punch.mp3"
+  },
+  {
+    "name": "Charge Up Three",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Magic/Charge Up Three.mp3"
+  },
+  {
+    "name": "Charge Up Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Magic/Charge Up Two.mp3"
+  },
+  {
+    "name": "Charge Up",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Magic/Charge Up.mp3"
+  },
+  {
+    "name": "Dark Magic",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Magic/Dark Magic.mp3"
+  },
+  {
+    "name": "Earth magic",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Magic/Earth magic.mp3"
+  },
+  {
+    "name": "Earth Tremor",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Magic/Earth Tremor.mp3"
+  },
+  {
+    "name": "Fire Three",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Magic/Fire Three.mp3"
+  },
+  {
+    "name": "Fire Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Magic/Fire Two.mp3"
+  },
+  {
+    "name": "Fire",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Magic/Fire.mp3"
+  },
+  {
+    "name": "Freeze Spreading",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Magic/Freeze Spreading.mp3"
+  },
+  {
+    "name": "Gravity Magic Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Magic/Gravity Magic Two.mp3"
+  },
+  {
+    "name": "Gravity Magic",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Magic/Gravity Magic.mp3"
+  },
+  {
+    "name": "Healing Magic Three",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Magic/Healing Magic Three.mp3"
+  },
+  {
+    "name": "Healing Magic Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Magic/Healing Magic Two.mp3"
+  },
+  {
+    "name": "Healing Magic",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Magic/Healing Magic.mp3"
+  },
+  {
+    "name": "Holy Magic",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Magic/Holy Magic.mp3"
+  },
+  {
+    "name": "Ice Three",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Magic/Ice Three.mp3"
+  },
+  {
+    "name": "Ice Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Magic/Ice Two.mp3"
+  },
+  {
+    "name": "Ice",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Magic/Ice.mp3"
+  },
+  {
+    "name": "Lightning Four",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Magic/Lightning Four.mp3"
+  },
+  {
+    "name": "Lightning Three",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Magic/Lightning Three.mp3"
+  },
+  {
+    "name": "Lightning Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Magic/Lightning Two.mp3"
+  },
+  {
+    "name": "Lightning",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Magic/Lightning.mp3"
+  },
+  {
+    "name": "Magic Wand",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Magic/Magic Wand.mp3"
+  },
+  {
+    "name": "Poison Magic Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Magic/Poison Magic Two.mp3"
+  },
+  {
+    "name": "Poison Magic",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Magic/Poison Magic.mp3"
+  },
+  {
+    "name": "Regenerate Three",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Magic/Regenerate Three.mp3"
+  },
+  {
+    "name": "Regenerate Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Magic/Regenerate Two.mp3"
+  },
+  {
+    "name": "Regenerate",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Magic/Regenerate.mp3"
+  },
+  {
+    "name": "Robes & Flags Flapping",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Magic/Robes & Flags Flapping.mp3"
+  },
+  {
+    "name": "Wind SFX",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Magic/Wind SFX.mp3"
+  },
+  {
+    "name": "Aura Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Video Game Combat/Aura Two.mp3"
+  },
+  {
+    "name": "Aura",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Video Game Combat/Aura.mp3"
+  },
+  {
+    "name": "BEAM Five",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Video Game Combat/BEAM Five.mp3"
+  },
+  {
+    "name": "BEAM Four",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Video Game Combat/BEAM Four.mp3"
+  },
+  {
+    "name": "BEAM Seven",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Video Game Combat/BEAM Seven.mp3"
+  },
+  {
+    "name": "BEAM Six",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Video Game Combat/BEAM Six.mp3"
+  },
+  {
+    "name": "BEAM Three",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Video Game Combat/BEAM Three.mp3"
+  },
+  {
+    "name": "BEAM Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Video Game Combat/BEAM Two.mp3"
+  },
+  {
+    "name": "BEAM",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Video Game Combat/BEAM.mp3"
+  },
+  {
+    "name": "Block",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Video Game Combat/Block.mp3"
+  },
+  {
+    "name": "Charge Up Three",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Video Game Combat/Charge Up Three.mp3"
+  },
+  {
+    "name": "Charge Up Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Video Game Combat/Charge Up Two.mp3"
+  },
+  {
+    "name": "Charge Up",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Video Game Combat/Charge Up.mp3"
+  },
+  {
+    "name": "Crush Stomp",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Video Game Combat/Crush Stomp.mp3"
+  },
+  {
+    "name": "Disappear",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Video Game Combat/Disappear.mp3"
+  },
+  {
+    "name": "Epic Punch",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Video Game Combat/Epic Punch.mp3"
+  },
+  {
+    "name": "K.O.",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Video Game Combat/K.O..mp3"
+  },
+  {
+    "name": "Kick Three",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Video Game Combat/Kick Three.mp3"
+  },
+  {
+    "name": "Kick Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Video Game Combat/Kick Two.mp3"
+  },
+  {
+    "name": "Kick",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Video Game Combat/Kick.mp3"
+  },
+  {
+    "name": "Knuckle Crack",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Video Game Combat/Knuckle Crack.mp3"
+  },
+  {
+    "name": "Power Up",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Video Game Combat/Power Up.mp3"
+  },
+  {
+    "name": "Punch Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Video Game Combat/Punch Two.mp3"
+  },
+  {
+    "name": "Punch",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Video Game Combat/Punch.mp3"
+  },
+  {
+    "name": "Rubber Crunch",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Video Game Combat/Rubber Crunch.mp3"
+  },
+  {
+    "name": "Rubber Squeeze",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Video Game Combat/Rubber Squeeze.mp3"
+  },
+  {
+    "name": "Step Forward",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Video Game Combat/Step Forward.mp3"
+  },
+  {
+    "name": "Teleport Punch Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Video Game Combat/Teleport Punch Two.mp3"
+  },
+  {
+    "name": "Teleport Punch",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Video Game Combat/Teleport Punch.mp3"
+  },
+  {
+    "name": "Teleport",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Video Game Combat/Teleport.mp3"
+  },
+  {
+    "name": "Big Boom Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Big Boom Two.mp3"
+  },
+  {
+    "name": "Big Boom",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Big Boom.mp3"
+  },
+  {
+    "name": "Boom Four",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Boom Four.mp3"
+  },
+  {
+    "name": "Boom Three",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Boom Three.mp3"
+  },
+  {
+    "name": "Boom Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Boom Two.mp3"
+  },
+  {
+    "name": "Boom",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Boom.mp3"
+  },
+  {
+    "name": "Canon Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Canon Two.mp3"
+  },
+  {
+    "name": "Canon",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Canon.mp3"
+  },
+  {
+    "name": "Gunshot Eight",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Gunshot Eight.mp3"
+  },
+  {
+    "name": "Gunshot Five",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Gunshot Five.mp3"
+  },
+  {
+    "name": "Gunshot Four",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Gunshot Four.mp3"
+  },
+  {
+    "name": "Gunshot Nine",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Gunshot Nine.mp3"
+  },
+  {
+    "name": "Gunshot Seven",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Gunshot Seven.mp3"
+  },
+  {
+    "name": "Gunshot Six",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Gunshot Six.mp3"
+  },
+  {
+    "name": "Gunshot Three",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Gunshot Three.mp3"
+  },
+  {
+    "name": "Gunshot Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Gunshot Two.mp3"
+  },
+  {
+    "name": "Gunshot",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Gunshot.mp3"
+  },
+  {
+    "name": "Pistol Dropped",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Pistol Dropped.mp3"
+  },
+  {
+    "name": "Pistol Kicked",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Pistol Kicked.mp3"
+  },
+  {
+    "name": "Reload Eight",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Reload Eight.mp3"
+  },
+  {
+    "name": "Reload Eleven",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Reload Eleven.mp3"
+  },
+  {
+    "name": "Reload Five",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Reload Five.mp3"
+  },
+  {
+    "name": "Reload Four",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Reload Four.mp3"
+  },
+  {
+    "name": "Reload Nine",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Reload Nine.mp3"
+  },
+  {
+    "name": "Reload Seven",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Reload Seven.mp3"
+  },
+  {
+    "name": "Reload Six",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Reload Six.mp3"
+  },
+  {
+    "name": "Reload Ten",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Reload Ten.mp3"
+  },
+  {
+    "name": "Reload Three",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Reload Three.mp3"
+  },
+  {
+    "name": "Reload Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Reload Two.mp3"
+  },
+  {
+    "name": "Reload",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Reload.mp3"
+  },
+  {
+    "name": "Ricochet",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Ricochet.mp3"
+  },
+  {
+    "name": "Rocket Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Rocket Two.mp3"
+  },
+  {
+    "name": "Rocket",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Rocket.mp3"
+  },
+  {
+    "name": "Shells Falling Five",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Shells Falling Five.mp3"
+  },
+  {
+    "name": "Shells Falling Four",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Shells Falling Four.mp3"
+  },
+  {
+    "name": "Shells Falling Six",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Shells Falling Six.mp3"
+  },
+  {
+    "name": "Shells Falling Three",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Shells Falling Three.mp3"
+  },
+  {
+    "name": "Shells Falling Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Shells Falling Two.mp3"
+  },
+  {
+    "name": "Shells Falling",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Shells Falling.mp3"
+  },
+  {
+    "name": "Sniper Kill Slow Motion",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Sniper Kill Slow Motion.mp3"
+  },
+  {
+    "name": "Sniper Shot Slow Motion",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/War and Guns/Sniper Shot Slow Motion.mp3"
+  },
+  {
+    "name": "Armor Dink",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Weapons/Armor Dink.mp3"
+  },
+  {
+    "name": "Arrow Flying",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Weapons/Arrow Flying.mp3"
+  },
+  {
+    "name": "Arrow Hit",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Weapons/Arrow Hit.mp3"
+  },
+  {
+    "name": "Blood Dripping",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Weapons/Blood Dripping.mp3"
+  },
+  {
+    "name": "Blood Splatter",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Weapons/Blood Splatter.mp3"
+  },
+  {
+    "name": "Cut With Sword",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Weapons/Cut With Sword.mp3"
+  },
+  {
+    "name": "Drawing Sword",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Weapons/Drawing Sword.mp3"
+  },
+  {
+    "name": "Great Sword Slash",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Weapons/Great Sword Slash.mp3"
+  },
+  {
+    "name": "Heavy Sword Cut",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Weapons/Heavy Sword Cut.mp3"
+  },
+  {
+    "name": "Multi Slashing",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Weapons/Multi Slashing.mp3"
+  },
+  {
+    "name": "Multi Stab",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Weapons/Multi Stab.mp3"
+  },
+  {
+    "name": "Quickie Poke Three",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Weapons/Quickie Poke Three.mp3"
+  },
+  {
+    "name": "Quickie Poke Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Weapons/Quickie Poke Two.mp3"
+  },
+  {
+    "name": "Quickie Poke",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Weapons/Quickie Poke.mp3"
+  },
+  {
+    "name": "Quickie Whoosh",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Weapons/Quickie Whoosh.mp3"
+  },
+  {
+    "name": "Reveal Sword Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Weapons/Reveal Sword Two.mp3"
+  },
+  {
+    "name": "Reveal Sword",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Weapons/Reveal Sword.mp3"
+  },
+  {
+    "name": "Rubber Crunch Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Weapons/Rubber Crunch Two.mp3"
+  },
+  {
+    "name": "Rubber Crunch",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Weapons/Rubber Crunch.mp3"
+  },
+  {
+    "name": "Sheath Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Weapons/Sheath Two.mp3"
+  },
+  {
+    "name": "Sheath",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Weapons/Sheath.mp3"
+  },
+  {
+    "name": "Slash & Bleed",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Weapons/Slash & Bleed.mp3"
+  },
+  {
+    "name": "Slashing Sword Five",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Weapons/Slashing Sword Five.mp3"
+  },
+  {
+    "name": "Slashing Sword Four",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Weapons/Slashing Sword Four.mp3"
+  },
+  {
+    "name": "Slashing Sword Six",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Weapons/Slashing Sword Six.mp3"
+  },
+  {
+    "name": "Slashing Sword Three",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Weapons/Slashing Sword Three.mp3"
+  },
+  {
+    "name": "Slashing Sword Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Weapons/Slashing Sword Two.mp3"
+  },
+  {
+    "name": "Slashing Sword",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Weapons/Slashing Sword.mp3"
+  },
+  {
+    "name": "Sword Swipe",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Weapons/Sword Swipe.mp3"
+  },
+  {
+    "name": "Whip Crack Four",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Weapons/Whip Crack Four.mp3"
+  },
+  {
+    "name": "Whip Crack Three",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Weapons/Whip Crack Three.mp3"
+  },
+  {
+    "name": "Whip Crack Two",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Weapons/Whip Crack Two.mp3"
+  },
+  {
+    "name": "Whip Crack",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Weapons/Whip Crack.mp3"
+  },
+  {
+    "name": "Whooooosh",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Weapons/Whooooosh.mp3"
+  },
+  {
+    "name": "Whoosh Normal",
+    "category": "SFX - All Battle SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/All Battle SFX/Weapons/Whoosh Normal.mp3"
+  },
+  {
+    "name": "\u30ab\u30fc\u30bd\u30eb\u79fb\u52d510",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30ab\u30fc\u30bd\u30eb\u79fb\u52d510.mp3"
+  },
+  {
+    "name": "\u30ab\u30fc\u30bd\u30eb\u79fb\u52d511",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30ab\u30fc\u30bd\u30eb\u79fb\u52d511.mp3"
+  },
+  {
+    "name": "\u30ab\u30fc\u30bd\u30eb\u79fb\u52d512",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30ab\u30fc\u30bd\u30eb\u79fb\u52d512.mp3"
+  },
+  {
+    "name": "\u30ab\u30fc\u30bd\u30eb\u79fb\u52d52",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30ab\u30fc\u30bd\u30eb\u79fb\u52d52.mp3"
+  },
+  {
+    "name": "\u30ab\u30fc\u30bd\u30eb\u79fb\u52d53",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30ab\u30fc\u30bd\u30eb\u79fb\u52d53.mp3"
+  },
+  {
+    "name": "\u30ab\u30fc\u30bd\u30eb\u79fb\u52d54",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30ab\u30fc\u30bd\u30eb\u79fb\u52d54.mp3"
+  },
+  {
+    "name": "\u30ab\u30fc\u30bd\u30eb\u79fb\u52d55",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30ab\u30fc\u30bd\u30eb\u79fb\u52d55.mp3"
+  },
+  {
+    "name": "\u30ab\u30fc\u30bd\u30eb\u79fb\u52d56",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30ab\u30fc\u30bd\u30eb\u79fb\u52d56.mp3"
+  },
+  {
+    "name": "\u30ab\u30fc\u30bd\u30eb\u79fb\u52d57",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30ab\u30fc\u30bd\u30eb\u79fb\u52d57.mp3"
+  },
+  {
+    "name": "\u30ab\u30fc\u30bd\u30eb\u79fb\u52d58",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30ab\u30fc\u30bd\u30eb\u79fb\u52d58.mp3"
+  },
+  {
+    "name": "\u30ab\u30fc\u30bd\u30eb\u79fb\u52d59",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30ab\u30fc\u30bd\u30eb\u79fb\u52d59.mp3"
+  },
+  {
+    "name": "\u30ad\u30e3\u30f3\u30bb\u30eb1",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30ad\u30e3\u30f3\u30bb\u30eb1.mp3"
+  },
+  {
+    "name": "\u30ad\u30e3\u30f3\u30bb\u30eb2",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30ad\u30e3\u30f3\u30bb\u30eb2.mp3"
+  },
+  {
+    "name": "\u30ad\u30e3\u30f3\u30bb\u30eb3",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30ad\u30e3\u30f3\u30bb\u30eb3.mp3"
+  },
+  {
+    "name": "\u30ad\u30e3\u30f3\u30bb\u30eb4",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30ad\u30e3\u30f3\u30bb\u30eb4.mp3"
+  },
+  {
+    "name": "\u30ad\u30e3\u30f3\u30bb\u30eb5",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30ad\u30e3\u30f3\u30bb\u30eb5.mp3"
+  },
+  {
+    "name": "\u30ad\u30e3\u30f3\u30bb\u30eb6",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30ad\u30e3\u30f3\u30bb\u30eb6.mp3"
+  },
+  {
+    "name": "\u30ad\u30e3\u30f3\u30bb\u30eb7",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30ad\u30e3\u30f3\u30bb\u30eb7.mp3"
+  },
+  {
+    "name": "\u30ad\u30e3\u30f3\u30bb\u30eb8",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30ad\u30e3\u30f3\u30bb\u30eb8.mp3"
+  },
+  {
+    "name": "\u30ad\u30e3\u30f3\u30bb\u30eb9",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30ad\u30e3\u30f3\u30bb\u30eb9.mp3"
+  },
+  {
+    "name": "\u30b2\u30fc\u30b8\u56de\u5fa91",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30b2\u30fc\u30b8\u56de\u5fa91.mp3"
+  },
+  {
+    "name": "\u30b2\u30fc\u30b8\u56de\u5fa92",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30b2\u30fc\u30b8\u56de\u5fa92.mp3"
+  },
+  {
+    "name": "\u30b2\u30fc\u30b8\u56de\u5fa93",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30b2\u30fc\u30b8\u56de\u5fa93.mp3"
+  },
+  {
+    "name": "\u30c7\u30fc\u30bf\u8868\u793a1",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30c7\u30fc\u30bf\u8868\u793a1.mp3"
+  },
+  {
+    "name": "\u30c7\u30fc\u30bf\u8868\u793a2",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30c7\u30fc\u30bf\u8868\u793a2.mp3"
+  },
+  {
+    "name": "\u30c7\u30fc\u30bf\u8868\u793a3",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30c7\u30fc\u30bf\u8868\u793a3.mp3"
+  },
+  {
+    "name": "\u30c7\u30fc\u30bf\u8868\u793a4",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30c7\u30fc\u30bf\u8868\u793a4.mp3"
+  },
+  {
+    "name": "\u30d3\u30fc\u30d7\u97f31",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30d3\u30fc\u30d7\u97f31.mp3"
+  },
+  {
+    "name": "\u30d3\u30fc\u30d7\u97f32",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30d3\u30fc\u30d7\u97f32.mp3"
+  },
+  {
+    "name": "\u30d3\u30fc\u30d7\u97f33",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30d3\u30fc\u30d7\u97f33.mp3"
+  },
+  {
+    "name": "\u30d3\u30fc\u30d7\u97f34",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30d3\u30fc\u30d7\u97f34.mp3"
+  },
+  {
+    "name": "\u30d3\u30fc\u30d7\u97f35",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30d3\u30fc\u30d7\u97f35.mp3"
+  },
+  {
+    "name": "\u30e1\u30c3\u30bb\u30fc\u30b8\u8868\u793a\u97f31",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30e1\u30c3\u30bb\u30fc\u30b8\u8868\u793a\u97f31.mp3"
+  },
+  {
+    "name": "\u30e1\u30c3\u30bb\u30fc\u30b8\u8868\u793a\u97f32",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30e1\u30c3\u30bb\u30fc\u30b8\u8868\u793a\u97f32.mp3"
+  },
+  {
+    "name": "\u30e1\u30c3\u30bb\u30fc\u30b8\u8868\u793a\u97f33",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30e1\u30c3\u30bb\u30fc\u30b8\u8868\u793a\u97f33.mp3"
+  },
+  {
+    "name": "\u30e1\u30cb\u30e5\u30fc\u3092\u958b\u304f1",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30e1\u30cb\u30e5\u30fc\u3092\u958b\u304f1.mp3"
+  },
+  {
+    "name": "\u30e1\u30cb\u30e5\u30fc\u3092\u958b\u304f2",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30e1\u30cb\u30e5\u30fc\u3092\u958b\u304f2.mp3"
+  },
+  {
+    "name": "\u30e1\u30cb\u30e5\u30fc\u3092\u958b\u304f3",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30e1\u30cb\u30e5\u30fc\u3092\u958b\u304f3.mp3"
+  },
+  {
+    "name": "\u30e1\u30cb\u30e5\u30fc\u3092\u958b\u304f5",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u30e1\u30cb\u30e5\u30fc\u3092\u958b\u304f5.mp3"
+  },
+  {
+    "name": "\u6210\u529f\u97f3",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6210\u529f\u97f3.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u30591",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u30591.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305910",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305910.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305911",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305911.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305912",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305912.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305913",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305913.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305914",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305914.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305915",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305915.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305916",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305916.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305917",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305917.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305918",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305918.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305919",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305919.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u30592",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u30592.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305920",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305920.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305921",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305921.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305922",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305922.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305923",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305923.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305924",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305924.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305925",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305925.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305926",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305926.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305927",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305927.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305928",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305928.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305929",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305929.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u30593",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u30593.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305930",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305930.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305931",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305931.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305932",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305932.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305933",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305933.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305934",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305934.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305935",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305935.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305936",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305936.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305937",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305937.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305938",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305938.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305939",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305939.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u30594",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u30594.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305940",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305940.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305941",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305941.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305942",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305942.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305943",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305943.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305944",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305944.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305945",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305945.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305946",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305946.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305947",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305947.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305948",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305948.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305949",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305949.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u30595",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u30595.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305950",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305950.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305951",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305951.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305952",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305952.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305953",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u305953.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u30596",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u30596.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u30597",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u30597.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u30598",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u30598.mp3"
+  },
+  {
+    "name": "\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u30599",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u6c7a\u5b9a\u30dc\u30bf\u30f3\u3092\u62bc\u30599.mp3"
+  },
+  {
+    "name": "\u8aac\u660e\u30a6\u30a4\u30f3\u30c9\u30a6\u304c\u958b\u304f",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u8aac\u660e\u30a6\u30a4\u30f3\u30c9\u30a6\u304c\u958b\u304f.mp3"
+  },
+  {
+    "name": "\u8b66\u544a\u97f31",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u8b66\u544a\u97f31.mp3"
+  },
+  {
+    "name": "\u8b66\u544a\u97f32",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u8b66\u544a\u97f32.mp3"
+  },
+  {
+    "name": "\u96fb\u5b50\u30eb\u30fc\u30ec\u30c3\u30c8",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u96fb\u5b50\u30eb\u30fc\u30ec\u30c3\u30c8.mp3"
+  },
+  {
+    "name": "\u96fb\u5b50\u30eb\u30fc\u30ec\u30c3\u30c8\u304c\u5f90\u3005\u306b\u6b62\u307e\u308b",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u96fb\u5b50\u30eb\u30fc\u30ec\u30c3\u30c8\u304c\u5f90\u3005\u306b\u6b62\u307e\u308b.mp3"
+  },
+  {
+    "name": "\u96fb\u5b50\u30eb\u30fc\u30ec\u30c3\u30c8\u306e\u51fa\u76ee\u304c\u70b9\u6ec5",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u96fb\u5b50\u30eb\u30fc\u30ec\u30c3\u30c8\u306e\u51fa\u76ee\u304c\u70b9\u6ec5.mp3"
+  },
+  {
+    "name": "\u96fb\u5b50\u30eb\u30fc\u30ec\u30c3\u30c8\u505c\u6b62\u30dc\u30bf\u30f3\u3092\u62bc\u3059",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u96fb\u5b50\u30eb\u30fc\u30ec\u30c3\u30c8\u505c\u6b62\u30dc\u30bf\u30f3\u3092\u62bc\u3059.mp3"
+  },
+  {
+    "name": "\u96fb\u5b50\u30eb\u30fc\u30ec\u30c3\u30c8\u56de\u8ee2\u4e2d",
+    "category": "SFX - BEEPS",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/BEEPS/\u96fb\u5b50\u30eb\u30fc\u30ec\u30c3\u30c8\u56de\u8ee2\u4e2d.mp3"
+  },
+  {
+    "name": "Deep Boom",
+    "category": "SFX - Cinema SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Cinema SFX/Deep Boom.mp3"
+  },
+  {
+    "name": "Epic Shine Three",
+    "category": "SFX - Cinema SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Cinema SFX/Epic Shine Three.mp3"
+  },
+  {
+    "name": "Epic Shine Two",
+    "category": "SFX - Cinema SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Cinema SFX/Epic Shine Two.mp3"
+  },
+  {
+    "name": "Epic Shine",
+    "category": "SFX - Cinema SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Cinema SFX/Epic Shine.mp3"
+  },
+  {
+    "name": "Epic Whoosh Three",
+    "category": "SFX - Cinema SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Cinema SFX/Epic Whoosh Three.mp3"
+  },
+  {
+    "name": "Epic Whoosh Two",
+    "category": "SFX - Cinema SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Cinema SFX/Epic Whoosh Two.mp3"
+  },
+  {
+    "name": "Epic Whoosh",
+    "category": "SFX - Cinema SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Cinema SFX/Epic Whoosh.mp3"
+  },
+  {
+    "name": "Ticky Shimmer",
+    "category": "SFX - Cinema SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Cinema SFX/Ticky Shimmer.mp3"
+  },
+  {
+    "name": "Reveal Five",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Icon Reveals/Reveal Five.mp3"
+  },
+  {
+    "name": "Reveal Four",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Icon Reveals/Reveal Four.mp3"
+  },
+  {
+    "name": "Reveal Six",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Icon Reveals/Reveal Six.mp3"
+  },
+  {
+    "name": "Reveal Three",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Icon Reveals/Reveal Three.mp3"
+  },
+  {
+    "name": "Reveal Two",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Icon Reveals/Reveal Two.mp3"
+  },
+  {
+    "name": "Reveal",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Icon Reveals/Reveal.mp3"
+  },
+  {
+    "name": "Anxiety",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Main Squeeze/Anxiety.mp3"
+  },
+  {
+    "name": "Bell Ringing",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Main Squeeze/Bell Ringing.mp3"
+  },
+  {
+    "name": "Bonk",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Main Squeeze/Bonk.mp3"
+  },
+  {
+    "name": "Calm Mind",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Main Squeeze/Calm Mind.mp3"
+  },
+  {
+    "name": "Clear Mind",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Main Squeeze/Clear Mind.mp3"
+  },
+  {
+    "name": "Confused One",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Main Squeeze/Confused One.mp3"
+  },
+  {
+    "name": "Confused Two",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Main Squeeze/Confused Two.mp3"
+  },
+  {
+    "name": "Congrats",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Main Squeeze/Congrats.mp3"
+  },
+  {
+    "name": "Correct",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Main Squeeze/Correct.mp3"
+  },
+  {
+    "name": "Cuckoo Two",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Main Squeeze/Cuckoo Two.mp3"
+  },
+  {
+    "name": "Cuckoo",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Main Squeeze/Cuckoo.mp3"
+  },
+  {
+    "name": "Cursed Melody",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Main Squeeze/Cursed Melody.mp3"
+  },
+  {
+    "name": "DJ Scratch Two",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Main Squeeze/DJ Scratch Two.mp3"
+  },
+  {
+    "name": "DJ Scratch",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Main Squeeze/DJ Scratch.mp3"
+  },
+  {
+    "name": "Drama Impact Three",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Main Squeeze/Drama Impact Three.mp3"
+  },
+  {
+    "name": "Drama Impact Two",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Main Squeeze/Drama Impact Two.mp3"
+  },
+  {
+    "name": "Drama Impact",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Main Squeeze/Drama Impact.mp3"
+  },
+  {
+    "name": "Drum Roll",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Main Squeeze/Drum Roll.mp3"
+  },
+  {
+    "name": "Emergency",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Main Squeeze/Emergency.mp3"
+  },
+  {
+    "name": "Gliding Strum",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Main Squeeze/Gliding Strum.mp3"
+  },
+  {
+    "name": "Honk",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Main Squeeze/Honk.mp3"
+  },
+  {
+    "name": "JAP CLAP BUILD UP",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Main Squeeze/JAP CLAP BUILD UP.mp3"
+  },
+  {
+    "name": "JAP CLAP TWO",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Main Squeeze/JAP CLAP TWO.mp3"
+  },
+  {
+    "name": "JAP CLAP",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Main Squeeze/JAP CLAP.mp3"
+  },
+  {
+    "name": "LVL Up",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Main Squeeze/LVL Up.mp3"
+  },
+  {
+    "name": "Pico Toy",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Main Squeeze/Pico Toy.mp3"
+  },
+  {
+    "name": "Rim Shots",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Main Squeeze/Rim Shots.mp3"
+  },
+  {
+    "name": "Scene Change Two",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Main Squeeze/Scene Change Two.mp3"
+  },
+  {
+    "name": "Scene Change",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Main Squeeze/Scene Change.mp3"
+  },
+  {
+    "name": "Stunted",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Main Squeeze/Stunted.mp3"
+  },
+  {
+    "name": "Symbal Crash",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Main Squeeze/Symbal Crash.mp3"
+  },
+  {
+    "name": "Timpani Roll",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Main Squeeze/Timpani Roll.mp3"
+  },
+  {
+    "name": "Trumpet Start",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Main Squeeze/Trumpet Start.mp3"
+  },
+  {
+    "name": "Answer Reveal Two",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Quiz SFX/Answer Reveal Two.mp3"
+  },
+  {
+    "name": "Answer Reveal",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Quiz SFX/Answer Reveal.mp3"
+  },
+  {
+    "name": "Correct Five",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Quiz SFX/Correct Five.mp3"
+  },
+  {
+    "name": "Correct Four",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Quiz SFX/Correct Four.mp3"
+  },
+  {
+    "name": "Correct Seven",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Quiz SFX/Correct Seven.mp3"
+  },
+  {
+    "name": "Correct Six",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Quiz SFX/Correct Six.mp3"
+  },
+  {
+    "name": "Correct Three",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Quiz SFX/Correct Three.mp3"
+  },
+  {
+    "name": "Correct Two",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Quiz SFX/Correct Two.mp3"
+  },
+  {
+    "name": "Correct",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Quiz SFX/Correct.mp3"
+  },
+  {
+    "name": "Timer Two",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Quiz SFX/Timer Two.mp3"
+  },
+  {
+    "name": "Timer",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Quiz SFX/Timer.mp3"
+  },
+  {
+    "name": "Wrong Two",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Quiz SFX/Wrong Two.mp3"
+  },
+  {
+    "name": "Wrong",
+    "category": "SFX - Game Show SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Game Show SFX/Quiz SFX/Wrong.mp3"
+  },
+  {
+    "name": "Bell Ding",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Bell Ding.mp3"
+  },
+  {
+    "name": "Bells Clear Mind",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Bells Clear Mind.mp3"
+  },
+  {
+    "name": "Blink",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Blink.mp3"
+  },
+  {
+    "name": "Bottle Cap Pop",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Bottle Cap Pop.mp3"
+  },
+  {
+    "name": "Car Stop",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Car Stop.mp3"
+  },
+  {
+    "name": "Chibi Eight",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Chibi Eight.mp3"
+  },
+  {
+    "name": "Chibi Five",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Chibi Five.mp3"
+  },
+  {
+    "name": "Chibi Four",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Chibi Four.mp3"
+  },
+  {
+    "name": "Chibi Nine",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Chibi Nine.mp3"
+  },
+  {
+    "name": "Chibi Poke Two",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Chibi Poke Two.mp3"
+  },
+  {
+    "name": "Chibi Poke",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Chibi Poke.mp3"
+  },
+  {
+    "name": "Chibi Seven",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Chibi Seven.mp3"
+  },
+  {
+    "name": "Chibi Six",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Chibi Six.mp3"
+  },
+  {
+    "name": "Chibi Ten",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Chibi Ten.mp3"
+  },
+  {
+    "name": "Chibi Three",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Chibi Three.mp3"
+  },
+  {
+    "name": "Chibi Two",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Chibi Two.mp3"
+  },
+  {
+    "name": "Chibi",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Chibi.mp3"
+  },
+  {
+    "name": "Chomp",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Chomp.mp3"
+  },
+  {
+    "name": "DING CONFUSED",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/DING CONFUSED.mp3"
+  },
+  {
+    "name": "DING CORRECT",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/DING CORRECT.mp3"
+  },
+  {
+    "name": "Ditzy",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Ditzy.mp3"
+  },
+  {
+    "name": "DONG",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/DONG.mp3"
+  },
+  {
+    "name": "Eating Meat",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Eating Meat.mp3"
+  },
+  {
+    "name": "Falling",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Falling.mp3"
+  },
+  {
+    "name": "Fear Five",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Fear Five.mp3"
+  },
+  {
+    "name": "Fear Four",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Fear Four.mp3"
+  },
+  {
+    "name": "Fear Six",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Fear Six.mp3"
+  },
+  {
+    "name": "Fear Three",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Fear Three.mp3"
+  },
+  {
+    "name": "Fear Two",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Fear Two.mp3"
+  },
+  {
+    "name": "Fear",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Fear.mp3"
+  },
+  {
+    "name": "Film SFX",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Film SFX.mp3"
+  },
+  {
+    "name": "Fly By Car",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Fly By Car.mp3"
+  },
+  {
+    "name": "Fly By Swipe",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Fly By Swipe.mp3"
+  },
+  {
+    "name": "Funny Boing",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Funny Boing.mp3"
+  },
+  {
+    "name": "Glimmer Four",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Glimmer Four.mp3"
+  },
+  {
+    "name": "Glimmer Three",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Glimmer Three.mp3"
+  },
+  {
+    "name": "Glimmer Two",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Glimmer Two.mp3"
+  },
+  {
+    "name": "Glimmer",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Glimmer.mp3"
+  },
+  {
+    "name": "Hallucinate",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Hallucinate.mp3"
+  },
+  {
+    "name": "Heart Beat",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Heart Beat.mp3"
+  },
+  {
+    "name": "Horn",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Horn.mp3"
+  },
+  {
+    "name": "Impact Two",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Impact Two.mp3"
+  },
+  {
+    "name": "Impact",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Impact.mp3"
+  },
+  {
+    "name": "Knuckle Crack",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Knuckle Crack.mp3"
+  },
+  {
+    "name": "Magic Effect Two",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Magic Effect Two.mp3"
+  },
+  {
+    "name": "Magic Effect",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Magic Effect.mp3"
+  },
+  {
+    "name": "Match Start Two",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Match Start Two.mp3"
+  },
+  {
+    "name": "Match Start",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Match Start.mp3"
+  },
+  {
+    "name": "Metal Bat",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Metal Bat.mp3"
+  },
+  {
+    "name": "POP THREE",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/POP THREE.mp3"
+  },
+  {
+    "name": "POP TWO",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/POP TWO.mp3"
+  },
+  {
+    "name": "POP",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/POP.mp3"
+  },
+  {
+    "name": "Race Start",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Race Start.mp3"
+  },
+  {
+    "name": "Ring Bell",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Ring Bell.mp3"
+  },
+  {
+    "name": "Shimmer",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Shimmer.mp3"
+  },
+  {
+    "name": "Shine Reveal",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Shine Reveal.mp3"
+  },
+  {
+    "name": "Shutter",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Shutter.mp3"
+  },
+  {
+    "name": "Slide Down",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Slide Down.mp3"
+  },
+  {
+    "name": "Slide Up",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Slide Up.mp3"
+  },
+  {
+    "name": "Smoke",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Smoke.mp3"
+  },
+  {
+    "name": "Sparkle Five",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Sparkle Five.mp3"
+  },
+  {
+    "name": "Sparkle Four",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Sparkle Four.mp3"
+  },
+  {
+    "name": "Sparkle Seven",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Sparkle Seven.mp3"
+  },
+  {
+    "name": "Sparkle Six",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Sparkle Six.mp3"
+  },
+  {
+    "name": "Sparkle Three",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Sparkle Three.mp3"
+  },
+  {
+    "name": "Sparkle Two",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Sparkle Two.mp3"
+  },
+  {
+    "name": "Sparkle",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Sparkle.mp3"
+  },
+  {
+    "name": "Strings",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Strings.mp3"
+  },
+  {
+    "name": "Stupid Five",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Stupid Five.mp3"
+  },
+  {
+    "name": "Stupid Four",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Stupid Four.mp3"
+  },
+  {
+    "name": "Stupid Seven",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Stupid Seven.mp3"
+  },
+  {
+    "name": "Stupid Six",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Stupid Six.mp3"
+  },
+  {
+    "name": "Stupid Three",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Stupid Three.mp3"
+  },
+  {
+    "name": "Stupid Two",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Stupid Two.mp3"
+  },
+  {
+    "name": "Stupid",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Stupid.mp3"
+  },
+  {
+    "name": "Trumpet",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Trumpet.mp3"
+  },
+  {
+    "name": "Water Droplet",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Water Droplet.mp3"
+  },
+  {
+    "name": "Whip",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Whip.mp3"
+  },
+  {
+    "name": "Wood Taps",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/Wood Taps.mp3"
+  },
+  {
+    "name": "\u30c9\u30fc\u30f3",
+    "category": "SFX - Main Anime SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Main Anime SFX/\u30c9\u30fc\u30f3.mp3"
+  },
+  {
+    "name": "\u3064\u308b\u306f\u3057\u3067\u58c1\u3092\u7834\u58ca1",
+    "category": "SFX - Pickaxe SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Pickaxe SFX/\u3064\u308b\u306f\u3057\u3067\u58c1\u3092\u7834\u58ca1.mp3"
+  },
+  {
+    "name": "\u3064\u308b\u306f\u3057\u3067\u58c1\u3092\u7834\u58ca2",
+    "category": "SFX - Pickaxe SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Pickaxe SFX/\u3064\u308b\u306f\u3057\u3067\u58c1\u3092\u7834\u58ca2.mp3"
+  },
+  {
+    "name": "\u3064\u308b\u306f\u3057\u3067\u6398\u308b1",
+    "category": "SFX - Pickaxe SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Pickaxe SFX/\u3064\u308b\u306f\u3057\u3067\u6398\u308b1.mp3"
+  },
+  {
+    "name": "\u3064\u308b\u306f\u3057\u3067\u6398\u308b2",
+    "category": "SFX - Pickaxe SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Pickaxe SFX/\u3064\u308b\u306f\u3057\u3067\u6398\u308b2.mp3"
+  },
+  {
+    "name": "\u3064\u308b\u306f\u3057\u3067\u6398\u308b3",
+    "category": "SFX - Pickaxe SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Pickaxe SFX/\u3064\u308b\u306f\u3057\u3067\u6398\u308b3.mp3"
+  },
+  {
+    "name": "Close",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Doors/Close.mp3"
+  },
+  {
+    "name": "Door Chime Two",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Doors/Door Chime Two.mp3"
+  },
+  {
+    "name": "Door Chime",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Doors/Door Chime.mp3"
+  },
+  {
+    "name": "Giant Door Squeak",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Doors/Giant Door Squeak.mp3"
+  },
+  {
+    "name": "Giant Metal Door Open",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Doors/Giant Metal Door Open.mp3"
+  },
+  {
+    "name": "Giant Metal Door Squeak",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Doors/Giant Metal Door Squeak.mp3"
+  },
+  {
+    "name": "Hard Knocking",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Doors/Hard Knocking.mp3"
+  },
+  {
+    "name": "Kick Down Door",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Doors/Kick Down Door.mp3"
+  },
+  {
+    "name": "Kncking Iron Door Two",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Doors/Kncking Iron Door Two.mp3"
+  },
+  {
+    "name": "Kncking Iron Door",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Doors/Kncking Iron Door.mp3"
+  },
+  {
+    "name": "Kncking Wood Door Two",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Doors/Kncking Wood Door Two.mp3"
+  },
+  {
+    "name": "Kncking Wood Door",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Doors/Kncking Wood Door.mp3"
+  },
+  {
+    "name": "Locked Door",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Doors/Locked Door.mp3"
+  },
+  {
+    "name": "Loud Squeak",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Doors/Loud Squeak.mp3"
+  },
+  {
+    "name": "Open Hard",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Doors/Open Hard.mp3"
+  },
+  {
+    "name": "Open Squeaky",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Doors/Open Squeaky.mp3"
+  },
+  {
+    "name": "Open Standard",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Doors/Open Standard.mp3"
+  },
+  {
+    "name": "Open",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Doors/Open.mp3"
+  },
+  {
+    "name": "Scared Knocking",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Doors/Scared Knocking.mp3"
+  },
+  {
+    "name": "Sliding Door Three",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Doors/Sliding Door Three.mp3"
+  },
+  {
+    "name": "Sliding Door Two",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Doors/Sliding Door Two.mp3"
+  },
+  {
+    "name": "Sliding Door",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Doors/Sliding Door.mp3"
+  },
+  {
+    "name": "Soft Open",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Doors/Soft Open.mp3"
+  },
+  {
+    "name": "Squeaky",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Doors/Squeaky.mp3"
+  },
+  {
+    "name": "Stone Wall Slide",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Doors/Stone Wall Slide.mp3"
+  },
+  {
+    "name": "Bag Change",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Money/Bag Change.mp3"
+  },
+  {
+    "name": "Cash Register",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Money/Cash Register.mp3"
+  },
+  {
+    "name": "Change Falling",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Money/Change Falling.mp3"
+  },
+  {
+    "name": "Change",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Money/Change.mp3"
+  },
+  {
+    "name": "Coin Flip",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Money/Coin Flip.mp3"
+  },
+  {
+    "name": "Falling Change",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Money/Falling Change.mp3"
+  },
+  {
+    "name": "Moving Bag Change",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Money/Moving Bag Change.mp3"
+  },
+  {
+    "name": "Click Four",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/TV SFX/Click Four.mp3"
+  },
+  {
+    "name": "Click Three",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/TV SFX/Click Three.mp3"
+  },
+  {
+    "name": "Click Two",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/TV SFX/Click Two.mp3"
+  },
+  {
+    "name": "Click",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/TV SFX/Click.mp3"
+  },
+  {
+    "name": "Bubbles Deep Five",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Water/Bubbles Deep Five.mp3"
+  },
+  {
+    "name": "Bubbles Deep Four",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Water/Bubbles Deep Four.mp3"
+  },
+  {
+    "name": "Bubbles Deep Six",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Water/Bubbles Deep Six.mp3"
+  },
+  {
+    "name": "Bubbles Deep Three",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Water/Bubbles Deep Three.mp3"
+  },
+  {
+    "name": "Bubbles Deep Two",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Water/Bubbles Deep Two.mp3"
+  },
+  {
+    "name": "Bubbles Deep",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Water/Bubbles Deep.mp3"
+  },
+  {
+    "name": "Bubbles Two",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Water/Bubbles Two.mp3"
+  },
+  {
+    "name": "Bubbles",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Water/Bubbles.mp3"
+  },
+  {
+    "name": "Drip Four",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Water/Drip Four.mp3"
+  },
+  {
+    "name": "Drip Three",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Water/Drip Three.mp3"
+  },
+  {
+    "name": "Drip Two",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Water/Drip Two.mp3"
+  },
+  {
+    "name": "Drip",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Water/Drip.mp3"
+  },
+  {
+    "name": "Feet Splashing",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Water/Feet Splashing.mp3"
+  },
+  {
+    "name": "Hand Splash Two",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Water/Hand Splash Two.mp3"
+  },
+  {
+    "name": "Hand Splash",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Water/Hand Splash.mp3"
+  },
+  {
+    "name": "PISS",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Water/PISS.mp3"
+  },
+  {
+    "name": "Splash",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Water/Splash.mp3"
+  },
+  {
+    "name": "Under Water Splash",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Water/Under Water Splash.mp3"
+  },
+  {
+    "name": "Walking on Puddles",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Water/Walking on Puddles.mp3"
+  },
+  {
+    "name": "Water Bucket",
+    "category": "SFX - Slice of Life SFX",
+    "file": "https://pub-5fbe92d8d61f481abbdda188a5106d8a.r2.dev/anime_sfx/Slice of Life SFX/Water/Water Bucket.mp3"
   }
 ]
