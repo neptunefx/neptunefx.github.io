@@ -82,9 +82,13 @@ function setupHeaderControls() {
 
     if (viewToggle) {
         viewToggle.addEventListener("click", () => {
-            viewMode = viewMode === "grid" ? "list" : "grid";
+            const modes = ["grid", "list", "table"];
+            const next = modes[(modes.indexOf(viewMode) + 1) % modes.length];
+            viewMode = next;
             grid.classList.toggle("list-view", viewMode === "list");
-            viewToggle.textContent = viewMode === "list" ? "▦" : "☰";
+            const icons = { grid: "▦", list: "☰", table: "📋" };
+            viewToggle.textContent = icons[viewMode];
+            applyFilters();
         });
     }
 }
@@ -188,6 +192,77 @@ function isRecent(item) {
     if (!item.added) return false;
     const sevenDays = 7 * 24 * 60 * 60;
     return (Date.now() / 1000 - item.added) < sevenDays;
+}
+
+/* ---------- FAVORITES ---------- */
+function getFavorites() {
+    try { return JSON.parse(localStorage.getItem("neptuneFavorites") || "[]"); }
+    catch (e) { return []; }
+}
+
+function isFavorite(link) {
+    return getFavorites().includes(link);
+}
+
+function toggleFavorite(link) {
+    let favs = getFavorites();
+    if (favs.includes(link)) {
+        favs = favs.filter(f => f !== link);
+    } else {
+        favs.push(link);
+    }
+    localStorage.setItem("neptuneFavorites", JSON.stringify(favs));
+    return favs.includes(link);
+}
+
+document.addEventListener("click", (e) => {
+    const btn = e.target.closest(".fav-btn");
+    if (!btn) return;
+    const isFav = toggleFavorite(btn.dataset.link);
+    btn.textContent = isFav ? "★" : "☆";
+    btn.classList.toggle("active", isFav);
+    showToast(isFav ? "Added to favorites" : "Removed from favorites");
+});
+
+/* ---------- TOAST NOTIFICATIONS ---------- */
+function showToast(message) {
+    let container = document.getElementById("toastContainer");
+    if (!container) {
+        container = document.createElement("div");
+        container.id = "toastContainer";
+        container.className = "toast-container";
+        document.body.appendChild(container);
+    }
+
+    const toast = document.createElement("div");
+    toast.className = "toast";
+    toast.textContent = message;
+    container.appendChild(toast);
+
+    setTimeout(() => toast.classList.add("show"), 10);
+    setTimeout(() => {
+        toast.classList.remove("show");
+        setTimeout(() => toast.remove(), 300);
+    }, 2200);
+}
+
+/* ---------- FIRST DOWNLOAD CONFETTI ---------- */
+function celebrateFirstDownload() {
+    if (localStorage.getItem("neptuneFirstDownloadDone")) return;
+    localStorage.setItem("neptuneFirstDownloadDone", "1");
+
+    const colors = ["#5b8cff", "#9b6bff", "#00d4ff", "#ff6ad5"];
+    for (let i = 0; i < 40; i++) {
+        const piece = document.createElement("div");
+        piece.className = "confetti-piece";
+        piece.style.left = Math.random() * 100 + "vw";
+        piece.style.background = colors[Math.floor(Math.random() * colors.length)];
+        piece.style.animationDuration = (Math.random() * 1.5 + 1.5) + "s";
+        piece.style.animationDelay = (Math.random() * 0.3) + "s";
+        document.body.appendChild(piece);
+        setTimeout(() => piece.remove(), 3000);
+    }
+    showToast("🎉 First download! Welcome to Neptune");
 }
 
 function setupLanding(data) {
@@ -359,6 +434,11 @@ function render(items) {
     }
     empty.style.display = "none";
 
+    if (viewMode === "table") {
+        renderTable(items, grid);
+        return;
+    }
+
     items.forEach((item, idx) => {
         const div = document.createElement("div");
         div.className = "card";
@@ -369,8 +449,10 @@ function render(items) {
         const isAudio = /\.(mp3|wav|ogg|m4a|flac)$/i.test(fileName);
         const sizeLabel = formatSize(item.size);
         const recentBadge = isRecent(item) ? `<span class="recent-badge">NEW</span>` : "";
+        const isFav = isFavorite(item.file);
 
         div.innerHTML = `
+            <button class="fav-btn ${isFav ? "active" : ""}" data-link="${item.file}">${isFav ? "★" : "☆"}</button>
             <div class="card-name">${escapeHtml(item.name)}</div>
             <div class="card-meta">${escapeHtml(item.category)}${sizeLabel ? " • " + sizeLabel : ""}</div>
             ${isAudio ? `<button class="preview-btn" data-src="${item.file}">▶ Preview</button>` : ""}
@@ -384,6 +466,42 @@ function render(items) {
         addTilt(div);
         grid.appendChild(div);
     });
+}
+
+function renderTable(items, container) {
+    const table = document.createElement("table");
+    table.className = "data-table";
+
+    table.innerHTML = `
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Date Added</th>
+                <th>Size</th>
+                <th>Category</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            ${items.map(item => {
+                const fileName = item.file.split("/").pop();
+                const dateStr = item.added ? new Date(item.added * 1000).toLocaleDateString() : "—";
+                const sizeLabel = formatSize(item.size) || "—";
+                const recentBadge = isRecent(item) ? `<span class="recent-badge table-badge">NEW</span>` : "";
+                return `
+                    <tr>
+                        <td>${escapeHtml(item.name)}${recentBadge}</td>
+                        <td>${dateStr}</td>
+                        <td>${sizeLabel}</td>
+                        <td>${escapeHtml(item.category)}</td>
+                        <td><a class="table-dl" href="${item.file}" data-filename="${escapeHtml(fileName)}">⬇</a></td>
+                    </tr>
+                `;
+            }).join("")}
+        </tbody>
+    `;
+
+    container.appendChild(table);
 }
 
 /* ---------- COPY LINK ---------- */
@@ -531,6 +649,7 @@ document.addEventListener("click", async (e) => {
 
         URL.revokeObjectURL(blobUrl);
         btn.textContent = "Done ✓";
+        celebrateFirstDownload();
     } catch (err) {
         console.log("Download failed", err);
         btn.textContent = "Failed — retry";
