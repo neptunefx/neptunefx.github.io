@@ -11,6 +11,9 @@ async function loadData() {
         buildCategories(data);
         applyFilters();
 
+        const liveCount = document.getElementById("liveCount");
+        if (liveCount) liveCount.textContent = `• ${data.length} files`;
+
         document.getElementById("search").addEventListener("input", (e) => {
             searchTerm = e.target.value.toLowerCase();
             applyFilters();
@@ -87,9 +90,10 @@ function render(items) {
     }
     empty.style.display = "none";
 
-    items.forEach(item => {
+    items.forEach((item, idx) => {
         const div = document.createElement("div");
         div.className = "card";
+        div.style.animationDelay = `${Math.min(idx * 0.03, 0.6)}s`;
 
         const fileName = item.file.split("/").pop();
 
@@ -102,7 +106,20 @@ function render(items) {
             </div>
         `;
 
+        addTilt(div);
         grid.appendChild(div);
+    });
+}
+
+function addTilt(el) {
+    el.addEventListener("mousemove", (e) => {
+        const rect = el.getBoundingClientRect();
+        const x = (e.clientX - rect.left) / rect.width - 0.5;
+        const y = (e.clientY - rect.top) / rect.height - 0.5;
+        el.style.transform = `translateY(-3px) rotateX(${(-y * 6).toFixed(2)}deg) rotateY(${(x * 6).toFixed(2)}deg)`;
+    });
+    el.addEventListener("mouseleave", () => {
+        el.style.transform = "";
     });
 }
 
@@ -204,8 +221,27 @@ function initStars() {
         twinkle: Math.random() * Math.PI * 2
     }));
 
+    let shootingStars = [];
+
+    function spawnShootingStar() {
+        const startX = Math.random() * canvas.width;
+        shootingStars.push({
+            x: startX,
+            y: -20,
+            len: Math.random() * 80 + 60,
+            speed: Math.random() * 8 + 10,
+            angle: Math.PI / 4 + (Math.random() * 0.2 - 0.1),
+            life: 1
+        });
+    }
+
+    setInterval(() => {
+        if (Math.random() < 0.6) spawnShootingStar();
+    }, 4000);
+
     function frame() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
+
         stars.forEach(s => {
             s.twinkle += 0.02;
             const alpha = 0.4 + Math.sin(s.twinkle) * 0.4;
@@ -220,6 +256,29 @@ function initStars() {
                 s.x = Math.random() * canvas.width;
             }
         });
+
+        shootingStars.forEach(s => {
+            const dx = Math.cos(s.angle) * s.len;
+            const dy = Math.sin(s.angle) * s.len;
+
+            const grad = ctx.createLinearGradient(s.x, s.y, s.x - dx, s.y - dy);
+            grad.addColorStop(0, `rgba(255,255,255,${s.life})`);
+            grad.addColorStop(1, "rgba(255,255,255,0)");
+
+            ctx.strokeStyle = grad;
+            ctx.lineWidth = 2;
+            ctx.beginPath();
+            ctx.moveTo(s.x, s.y);
+            ctx.lineTo(s.x - dx, s.y - dy);
+            ctx.stroke();
+
+            s.x += Math.cos(s.angle) * s.speed;
+            s.y += Math.sin(s.angle) * s.speed;
+            s.life -= 0.012;
+        });
+
+        shootingStars = shootingStars.filter(s => s.life > 0 && s.y < canvas.height + 100);
+
         requestAnimationFrame(frame);
     }
     frame();
@@ -239,12 +298,13 @@ function initPlanetTracker() {
         { name: "Sun", emoji: "☀️" },
         { name: "Mercury", emoji: "🪨" },
         { name: "Venus", emoji: "🟠" },
+        { name: "Earth", emoji: "🌍" },
         { name: "Mars", emoji: "🔴" },
         { name: "Jupiter", emoji: "🟤" },
         { name: "Saturn", emoji: "🪐" },
         { name: "Uranus", emoji: "🩵" },
         { name: "Neptune", emoji: "🔵" },
-        { name: "Earth", emoji: "🌍" }
+        { name: "Pluto", emoji: "⚪" }
     ];
 
     let lastIndex = -1;
