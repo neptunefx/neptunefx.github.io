@@ -773,6 +773,19 @@ initScrollTop();
 initSearchShortcut();
 initThemes();
 initLinksToggle();
+initPasswordCopy();
+
+function initPasswordCopy() {
+    const btn = document.getElementById("copyPassword");
+    if (!btn) return;
+    btn.addEventListener("click", () => {
+        navigator.clipboard.writeText("star").then(() => {
+            const original = btn.textContent;
+            btn.textContent = "Copied ✓";
+            setTimeout(() => { btn.textContent = original; }, 1500);
+        });
+    });
+}
 
 function initLinksToggle() {
     const btn = document.getElementById("linksToggle");
