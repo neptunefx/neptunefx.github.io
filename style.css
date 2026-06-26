@@ -152,7 +152,9 @@ input#search::placeholder {
     padding: 18px;
     align-self: start;
     position: sticky;
-    top: 92px;
+    top: 108px;
+    max-height: calc(100vh - 128px);
+    overflow-y: auto;
 }
 
 .sidebar-title {
