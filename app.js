@@ -227,3 +227,48 @@ function initStars() {
 
 initStars();
 loadData();
+initPlanetTracker();
+
+/* ---------- PLANET SCROLL TRACKER ---------- */
+function initPlanetTracker() {
+    const emojiEl = document.getElementById("planetEmoji");
+    const nameEl = document.getElementById("planetName");
+    if (!emojiEl || !nameEl) return;
+
+    const planets = [
+        { name: "Sun", emoji: "☀️" },
+        { name: "Mercury", emoji: "🪨" },
+        { name: "Venus", emoji: "🟠" },
+        { name: "Mars", emoji: "🔴" },
+        { name: "Jupiter", emoji: "🟤" },
+        { name: "Saturn", emoji: "🪐" },
+        { name: "Uranus", emoji: "🩵" },
+        { name: "Neptune", emoji: "🔵" },
+        { name: "Earth", emoji: "🌍" }
+    ];
+
+    let lastIndex = -1;
+
+    function update() {
+        const scrollTop = window.scrollY;
+        const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const pct = docHeight > 0 ? scrollTop / docHeight : 0;
+
+        const index = Math.min(
+            planets.length - 1,
+            Math.floor(pct * planets.length)
+        );
+
+        if (index !== lastIndex) {
+            lastIndex = index;
+            const planet = planets[index];
+            emojiEl.textContent = planet.emoji;
+            nameEl.textContent = planet.name;
+            emojiEl.style.transform = "scale(1.3)";
+            setTimeout(() => { emojiEl.style.transform = "scale(1)"; }, 200);
+        }
+    }
+
+    window.addEventListener("scroll", update, { passive: true });
+    update();
+}
