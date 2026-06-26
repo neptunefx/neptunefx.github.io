@@ -711,8 +711,8 @@ footer {
 }
 
 .links-grid a {
-    flex: 1 1 200px;
-    max-width: 240px;
+    flex: 0 1 200px;
+    width: 200px;
     display: block;
     padding: 12px 14px;
     background: var(--panel-solid);
