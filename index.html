@@ -54,14 +54,39 @@
         </aside>
 
         <main class="content">
-            <div class="content-header">
-                <h2 id="sectionTitle">All Tools</h2>
-                <span id="resultCount" class="result-count"></span>
+
+            <div id="landing" class="landing">
+                <div class="landing-title">What are you looking for?</div>
+                <div class="landing-grid">
+                    <button class="landing-box" data-cat="all">
+                        <div class="landing-icon">🌌</div>
+                        <div class="landing-label">All</div>
+                        <div class="landing-count" id="landingAllCount"></div>
+                    </button>
+                    <button class="landing-box" data-cat="Tools">
+                        <div class="landing-icon">🛠️</div>
+                        <div class="landing-label">Tools</div>
+                        <div class="landing-count" id="landingToolsCount"></div>
+                    </button>
+                    <button class="landing-box" data-cat="__all_sfx__">
+                        <div class="landing-icon">🔊</div>
+                        <div class="landing-label">SFX</div>
+                        <div class="landing-count" id="landingSfxCount"></div>
+                    </button>
+                </div>
             </div>
 
-            <div id="grid" class="grid"></div>
-            <div id="emptyState" class="empty-state" style="display:none;">
-                No results found.
+            <div id="resultsArea" style="display:none;">
+                <div class="content-header">
+                    <button id="backToHome" class="back-btn">← Back</button>
+                    <h2 id="sectionTitle">All Tools</h2>
+                    <span id="resultCount" class="result-count"></span>
+                </div>
+
+                <div id="grid" class="grid"></div>
+                <div id="emptyState" class="empty-state" style="display:none;">
+                    No results found.
+                </div>
             </div>
 
             <section class="links-section">
