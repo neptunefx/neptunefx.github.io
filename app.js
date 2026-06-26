@@ -351,7 +351,6 @@ function buildCategories(data) {
 
         const subWrap = document.createElement("div");
         subWrap.className = "cat-sublist";
-        subWrap.style.display = "none";
 
         sfxCats.forEach(cat => {
             const label = cat.replace("SFX - ", "");
@@ -366,9 +365,8 @@ function buildCategories(data) {
 
         parent.addEventListener("click", (e) => {
             e.stopPropagation();
-            const isOpen = subWrap.style.display !== "none";
-            subWrap.style.display = isOpen ? "none" : "flex";
-            parent.querySelector(".chevron").textContent = isOpen ? "▸" : "▾";
+            const isOpen = subWrap.classList.toggle("open");
+            parent.querySelector(".chevron").textContent = isOpen ? "▾" : "▸";
         });
     }
 
@@ -783,9 +781,8 @@ function initLinksToggle() {
     if (!btn || !grid) return;
 
     btn.addEventListener("click", () => {
-        const isOpen = grid.style.display !== "none";
-        grid.style.display = isOpen ? "none" : "flex";
-        chevron.textContent = isOpen ? "▸" : "▾";
+        const isOpen = grid.classList.toggle("open");
+        chevron.textContent = isOpen ? "▾" : "▸";
     });
 }
 
@@ -840,7 +837,7 @@ function initThemes() {
     });
 
     toggle.addEventListener("click", () => {
-        panel.style.display = panel.style.display === "none" ? "block" : "none";
+        panel.classList.toggle("open");
     });
 
     document.getElementById("applyCustom").addEventListener("click", () => {
