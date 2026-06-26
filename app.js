@@ -287,6 +287,98 @@ function initStars() {
 initStars();
 loadData();
 initPlanetTracker();
+initIntroLoader();
+initCursorGlow();
+initParallaxPlanets();
+initScrollTop();
+initSearchShortcut();
+initLogoEasterEgg();
+
+/* ---------- INTRO LOADER ---------- */
+function initIntroLoader() {
+    const loader = document.getElementById("introLoader");
+    if (!loader) return;
+    setTimeout(() => loader.classList.add("hide"), 1100);
+}
+
+/* ---------- CURSOR GLOW ---------- */
+function initCursorGlow() {
+    const glow = document.getElementById("cursorGlow");
+    if (!glow) return;
+    window.addEventListener("mousemove", (e) => {
+        glow.style.left = e.clientX + "px";
+        glow.style.top = e.clientY + "px";
+    });
+    window.addEventListener("mouseleave", () => { glow.style.opacity = "0"; });
+    window.addEventListener("mouseenter", () => { glow.style.opacity = "1"; });
+}
+
+/* ---------- PARALLAX FLOATING PLANETS ---------- */
+function initParallaxPlanets() {
+    const container = document.getElementById("parallaxPlanets");
+    if (!container) return;
+
+    const emojis = ["🪐", "🌑", "✨", "🌌", "⭐"];
+    const count = 6;
+
+    for (let i = 0; i < count; i++) {
+        const el = document.createElement("span");
+        el.className = "parallax-planet";
+        el.textContent = emojis[Math.floor(Math.random() * emojis.length)];
+        el.style.left = `${Math.random() * 100}%`;
+        el.style.top = `${Math.random() * 100}%`;
+        el.style.fontSize = `${Math.random() * 30 + 20}px`;
+        el.style.animationDuration = `${Math.random() * 20 + 15}s`;
+        el.style.animationDirection = Math.random() > 0.5 ? "alternate" : "alternate-reverse";
+        container.appendChild(el);
+    }
+}
+
+/* ---------- SCROLL TO TOP ---------- */
+function initScrollTop() {
+    const btn = document.getElementById("scrollTop");
+    if (!btn) return;
+
+    window.addEventListener("scroll", () => {
+        btn.classList.toggle("visible", window.scrollY > 400);
+    }, { passive: true });
+
+    btn.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+}
+
+/* ---------- "/" FOCUSES SEARCH ---------- */
+function initSearchShortcut() {
+    window.addEventListener("keydown", (e) => {
+        if (e.key === "/" && document.activeElement.id !== "search") {
+            e.preventDefault();
+            document.getElementById("search").focus();
+        }
+    });
+}
+
+/* ---------- LOGO EASTER EGG ---------- */
+function initLogoEasterEgg() {
+    const logo = document.getElementById("brandLogo");
+    if (!logo) return;
+
+    let clicks = 0;
+    logo.addEventListener("click", () => {
+        clicks++;
+        logo.style.transition = "transform 0.5s ease";
+        logo.style.transform = `rotate(${clicks * 360}deg)`;
+
+        if (clicks === 5) {
+            document.body.style.transition = "filter 0.4s ease";
+            document.body.style.filter = "hue-rotate(180deg)";
+            setTimeout(() => {
+                document.body.style.filter = "";
+                clicks = 0;
+            }, 1500);
+        }
+    });
+}
 
 /* ---------- PLANET SCROLL TRACKER ---------- */
 function initPlanetTracker() {

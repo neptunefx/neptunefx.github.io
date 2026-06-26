@@ -10,17 +10,27 @@
 
 <body>
 
+<div id="introLoader" class="intro-loader">
+    <div class="intro-text">ENTERING NEPTUNE</div>
+    <div class="intro-bar"><div class="intro-bar-fill"></div></div>
+</div>
+
 <div class="bg"></div>
 <canvas id="stars"></canvas>
+<div id="cursorGlow" class="cursor-glow"></div>
+<div id="parallaxPlanets" class="parallax-planets"></div>
+
 <div id="planetTracker" class="planet-tracker">
     <span id="planetEmoji">☀️</span>
     <span id="planetName">Sun</span>
 </div>
 
+<button id="scrollTop" class="scroll-top" title="Back to the Sun">↑</button>
+
 <div class="shell">
 
     <header class="topbar">
-        <div class="brand">
+        <div class="brand" id="brandLogo">
             <span class="brand-icon">🔵</span>
             <div>
                 <div class="brand-title">NEPTUNE</div>
