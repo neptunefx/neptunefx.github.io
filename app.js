@@ -33,10 +33,20 @@ function buildCategories(data) {
     });
 
     const list = document.getElementById("categoryList");
-
     document.getElementById("countAll").textContent = data.length;
 
+    const sfxCats = [];
+    const normalCats = [];
+
     Object.keys(counts).sort().forEach(cat => {
+        if (cat.startsWith("SFX - ") || cat === "Anime SFX") {
+            sfxCats.push(cat);
+        } else {
+            normalCats.push(cat);
+        }
+    });
+
+    normalCats.forEach(cat => {
         const btn = document.createElement("button");
         btn.className = "cat-btn";
         btn.dataset.cat = cat;
@@ -44,9 +54,41 @@ function buildCategories(data) {
         list.appendChild(btn);
     });
 
+    if (sfxCats.length) {
+        const sfxTotal = sfxCats.reduce((sum, c) => sum + counts[c], 0);
+
+        const parent = document.createElement("button");
+        parent.className = "cat-btn cat-parent";
+        parent.dataset.cat = "__sfx_parent__";
+        parent.innerHTML = `<span>SFX <span class="chevron">▸</span></span><span class="count">${sfxTotal}</span>`;
+        list.appendChild(parent);
+
+        const subWrap = document.createElement("div");
+        subWrap.className = "cat-sublist";
+        subWrap.style.display = "none";
+
+        sfxCats.forEach(cat => {
+            const label = cat.replace("SFX - ", "");
+            const sub = document.createElement("button");
+            sub.className = "cat-btn cat-sub";
+            sub.dataset.cat = cat;
+            sub.innerHTML = `<span>${label}</span><span class="count">${counts[cat]}</span>`;
+            subWrap.appendChild(sub);
+        });
+
+        list.appendChild(subWrap);
+
+        parent.addEventListener("click", (e) => {
+            e.stopPropagation();
+            const isOpen = subWrap.style.display !== "none";
+            subWrap.style.display = isOpen ? "none" : "flex";
+            parent.querySelector(".chevron").textContent = isOpen ? "▸" : "▾";
+        });
+    }
+
     list.addEventListener("click", (e) => {
         const btn = e.target.closest(".cat-btn");
-        if (!btn) return;
+        if (!btn || btn.dataset.cat === "__sfx_parent__") return;
 
         list.querySelectorAll(".cat-btn").forEach(b => b.classList.remove("active"));
         btn.classList.add("active");

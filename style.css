@@ -211,6 +211,26 @@ input#search::placeholder {
     color: #cfe0ff;
 }
 
+.cat-parent .chevron {
+    font-size: 10px;
+    margin-left: 4px;
+    opacity: 0.7;
+}
+
+.cat-sublist {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding-left: 14px;
+    border-left: 1px solid var(--border);
+    margin-left: 12px;
+}
+
+.cat-sub {
+    font-size: 13px;
+    padding: 8px 10px;
+}
+
 /* CONTENT */
 .content {
     min-height: 300px;
