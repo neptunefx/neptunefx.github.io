@@ -94,6 +94,17 @@ function setupHeaderControls() {
 }
 
 function setupRandomButton() {
+    const favBtn = document.getElementById("favBtn");
+    if (favBtn) {
+        favBtn.addEventListener("click", () => {
+            activeCategory = "__favorites__";
+            document.getElementById("search").value = "";
+            searchTerm = "";
+            showResults();
+            applyFilters();
+        });
+    }
+
     const btn = document.getElementById("randomBtn");
     if (!btn) return;
 
@@ -222,6 +233,7 @@ document.addEventListener("click", (e) => {
     btn.textContent = isFav ? "★" : "☆";
     btn.classList.toggle("active", isFav);
     showToast(isFav ? "Added to favorites" : "Removed from favorites");
+    if (activeCategory === "__favorites__") applyFilters();
 });
 
 /* ---------- TOAST NOTIFICATIONS ---------- */
@@ -378,6 +390,9 @@ function applyFilters() {
 
     if (activeCategory === "__all_sfx__") {
         filtered = filtered.filter(i => i.category.startsWith("SFX - ") || i.category === "Anime SFX");
+    } else if (activeCategory === "__favorites__") {
+        const favs = getFavorites();
+        filtered = filtered.filter(i => favs.includes(i.file));
     } else if (activeCategory !== "all") {
         filtered = filtered.filter(i => i.category === activeCategory);
     }
@@ -406,7 +421,7 @@ function applyFilters() {
         filtered.sort((a, b) => (b.added || 0) - (a.added || 0));
     }
 
-    const titleMap = { all: "All Tools", __all_sfx__: "SFX" };
+    const titleMap = { all: "All Tools", __all_sfx__: "SFX", __favorites__: "⭐ Favorites" };
     document.getElementById("sectionTitle").textContent =
         titleMap[activeCategory] || activeCategory;
 
