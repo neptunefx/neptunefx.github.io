@@ -97,6 +97,9 @@ function render(items) {
             <div class="card-name">${escapeHtml(item.name)}</div>
             <div class="card-meta">${escapeHtml(item.category)}</div>
             <a class="download-btn" href="${item.file}" data-filename="${escapeHtml(fileName)}">⬇ Download</a>
+            <div class="progress-track" style="display:none;">
+                <div class="progress-fill"></div>
+            </div>
         `;
 
         grid.appendChild(div);
@@ -109,7 +112,7 @@ function escapeHtml(str) {
     return div.innerHTML;
 }
 
-/* ---------- FORCE CORRECT FILENAME ON DOWNLOAD (cross-origin safe) ---------- */
+/* ---------- FORCE CORRECT FILENAME ON DOWNLOAD + PROGRESS BAR (cross-origin safe) ---------- */
 document.addEventListener("click", async (e) => {
     const btn = e.target.closest(".download-btn");
     if (!btn) return;
@@ -117,13 +120,42 @@ document.addEventListener("click", async (e) => {
     e.preventDefault();
     const url = btn.getAttribute("href");
     const filename = btn.getAttribute("data-filename") || "download";
+    const card = btn.closest(".card");
+    const track = card ? card.querySelector(".progress-track") : null;
+    const fill = card ? card.querySelector(".progress-fill") : null;
 
     const originalText = btn.textContent;
-    btn.textContent = "Downloading...";
+    btn.textContent = "Starting...";
+    btn.classList.add("disabled");
+    if (track) {
+        track.style.display = "block";
+        fill.style.width = "0%";
+    }
 
     try {
         const res = await fetch(url);
-        const blob = await res.blob();
+        const total = Number(res.headers.get("content-length")) || 0;
+
+        let loaded = 0;
+        const reader = res.body.getReader();
+        const chunks = [];
+
+        while (true) {
+            const { done, value } = await reader.read();
+            if (done) break;
+            chunks.push(value);
+            loaded += value.length;
+
+            if (total) {
+                const pct = Math.round((loaded / total) * 100);
+                if (fill) fill.style.width = pct + "%";
+                btn.textContent = `${pct}%`;
+            } else {
+                btn.textContent = `${(loaded / 1048576).toFixed(1)} MB`;
+            }
+        }
+
+        const blob = new Blob(chunks);
         const blobUrl = URL.createObjectURL(blob);
 
         const a = document.createElement("a");
@@ -134,11 +166,19 @@ document.addEventListener("click", async (e) => {
         a.remove();
 
         URL.revokeObjectURL(blobUrl);
+        btn.textContent = "Done ✓";
     } catch (err) {
         console.log("Download failed", err);
-        window.open(url, "_blank");
+        btn.textContent = "Failed — retry";
     } finally {
-        btn.textContent = originalText;
+        setTimeout(() => {
+            btn.textContent = originalText;
+            btn.classList.remove("disabled");
+            if (track) {
+                track.style.display = "none";
+                fill.style.width = "0%";
+            }
+        }, 2000);
     }
 });
 

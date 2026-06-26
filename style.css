@@ -276,6 +276,26 @@ input#search::placeholder {
     transform: translateY(-1px);
 }
 
+.card a.download-btn.disabled {
+    pointer-events: none;
+    filter: brightness(0.9);
+}
+
+.progress-track {
+    height: 5px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.08);
+    overflow: hidden;
+    margin-top: -2px;
+}
+
+.progress-fill {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, var(--accent), var(--accent-2));
+    transition: width 0.15s ease;
+}
+
 /* SECTION TITLE (legacy grouped headers, if used) */
 .grid h2 {
     grid-column: 1 / -1;
@@ -305,6 +325,12 @@ footer {
 .made-by {
     margin-top: 6px;
     color: #7aa7ff;
+    font-size: 12px;
+}
+
+.rip-line {
+    margin-top: 4px;
+    color: var(--text-dim);
     font-size: 12px;
 }
 
