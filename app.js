@@ -91,10 +91,12 @@ function render(items) {
         const div = document.createElement("div");
         div.className = "card";
 
+        const fileName = item.file.split("/").pop();
+
         div.innerHTML = `
             <div class="card-name">${escapeHtml(item.name)}</div>
             <div class="card-meta">${escapeHtml(item.category)}</div>
-            <a class="download-btn" href="${item.file}" download>⬇ Download</a>
+            <a class="download-btn" href="${item.file}" data-filename="${escapeHtml(fileName)}">⬇ Download</a>
         `;
 
         grid.appendChild(div);
@@ -106,6 +108,39 @@ function escapeHtml(str) {
     div.textContent = str;
     return div.innerHTML;
 }
+
+/* ---------- FORCE CORRECT FILENAME ON DOWNLOAD (cross-origin safe) ---------- */
+document.addEventListener("click", async (e) => {
+    const btn = e.target.closest(".download-btn");
+    if (!btn) return;
+
+    e.preventDefault();
+    const url = btn.getAttribute("href");
+    const filename = btn.getAttribute("data-filename") || "download";
+
+    const originalText = btn.textContent;
+    btn.textContent = "Downloading...";
+
+    try {
+        const res = await fetch(url);
+        const blob = await res.blob();
+        const blobUrl = URL.createObjectURL(blob);
+
+        const a = document.createElement("a");
+        a.href = blobUrl;
+        a.download = filename;
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+
+        URL.revokeObjectURL(blobUrl);
+    } catch (err) {
+        console.log("Download failed", err);
+        window.open(url, "_blank");
+    } finally {
+        btn.textContent = originalText;
+    }
+});
 
 /* ---------- ANIMATED STAR BACKGROUND ---------- */
 function initStars() {
