@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SFX — Neptune Archive</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<div class="shell">
+
+    <header class="topbar">
+        <div class="brand">
+            <a class="brand-title" href="index.html">NEPTUNE</a>
+            <span class="brand-sub">Editing Tools Archive</span>
+        </div>
+        <nav class="toplinks">
+            <a href="tools.html">Tools</a>
+            <a href="sfx.html" class="active">SFX</a>
+            <a href="links.html">Useful Links</a>
+        </nav>
+        <div class="search-wrap">
+            <input id="search" placeholder="Search sound effects...">
+        </div>
+    </header>
+
+    <div class="layout">
+
+        <aside class="sidebar">
+            <div class="sidebar-title">Categories</div>
+            <div id="categoryList" class="category-list">
+                <button class="cat-btn active" data-cat="all">
+                    <span>All</span><span class="count" id="countAll">0</span>
+                </button>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="content-header">
+                <h2 id="sectionTitle">All</h2>
+                <span id="resultCount" class="result-count"></span>
+            </div>
+
+            <div id="grid" class="grid"></div>
+            <div id="emptyState" class="empty-state" style="display:none;">
+                No results found.
+            </div>
+        </main>
+
+    </div>
+
+    <footer>
+        <div>Neptune Archive &mdash; Built for creators</div>
+        <div>Made by Ko</div>
+    </footer>
+
+</div>
+
+<script src="shared.js"></script>
+<script>loadData("sfx");</script>
+</body>
+</html>
