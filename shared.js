@@ -104,19 +104,48 @@ function render(items) {
         const div = document.createElement("div");
         div.className = "card";
 
-        // Pull the real filename (with its real extension) from the URL so the
-        // browser can't mis-guess it from the server's Content-Type header.
         const realFilename = decodeURIComponent(item.file.split("/").pop());
 
         div.innerHTML = `
             <div class="card-name">${escapeHtml(item.name)}</div>
             <div class="card-meta">${escapeHtml(item.category)}</div>
-            <a class="download-btn" href="${item.file}" download="${escapeHtml(realFilename)}">Download</a>
+            <a class="download-btn" href="${item.file}" data-filename="${escapeHtml(realFilename)}">Download</a>
         `;
 
         grid.appendChild(div);
     });
 }
+
+document.addEventListener("click", async (e) => {
+    const link = e.target.closest("a.download-btn");
+    if (!link) return;
+
+    e.preventDefault();
+    const url = link.getAttribute("href");
+    const filename = link.dataset.filename || url.split("/").pop();
+    const originalText = link.textContent;
+
+    try {
+        link.textContent = "Downloading...";
+        const res = await fetch(url);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const blob = await res.blob();
+
+        const blobUrl = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = blobUrl;
+        a.download = filename;
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        URL.revokeObjectURL(blobUrl);
+    } catch (err) {
+        console.log("Download failed, falling back to direct link:", err);
+        window.location.href = url;
+    } finally {
+        link.textContent = originalText;
+    }
+});
 
 function escapeHtml(str) {
     const div = document.createElement("div");
