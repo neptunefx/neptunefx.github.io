@@ -104,10 +104,14 @@ function render(items) {
         const div = document.createElement("div");
         div.className = "card";
 
+        // Pull the real filename (with its real extension) from the URL so the
+        // browser can't mis-guess it from the server's Content-Type header.
+        const realFilename = decodeURIComponent(item.file.split("/").pop());
+
         div.innerHTML = `
             <div class="card-name">${escapeHtml(item.name)}</div>
             <div class="card-meta">${escapeHtml(item.category)}</div>
-            <a class="download-btn" href="${item.file}" download>Download</a>
+            <a class="download-btn" href="${item.file}" download="${escapeHtml(realFilename)}">Download</a>
         `;
 
         grid.appendChild(div);
